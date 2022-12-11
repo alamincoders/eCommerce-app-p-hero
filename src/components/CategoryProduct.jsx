@@ -11,16 +11,16 @@ const CategoryProduct = () => {
   return (
     <div className="bg-neutral-100/70 dark:bg-black/20 container py-16 rounded-[30px]">
       <div>
-        <div class="flex flex-col items-center text-center w-full mx-auto mb-12 lg:mb-14">
-          <h2 class="justify-center text-3xl md:text-4xl 2xl:text-5xl font-semibold">Start exploring.</h2>
+        <div className="flex flex-col items-center text-center w-full mx-auto mb-12 lg:mb-14">
+          <h2 className="justify-center text-3xl md:text-4xl 2xl:text-5xl font-semibold">Start exploring.</h2>
         </div>
-        <nav class=" bg-transparent border-0 mb-12 lg:mb-14 relative flex justify-center w-full text-sm md:text-base">
-          <ul class="flex items-center px-3 bg-white rounded-full shadow-lg overflow-x-auto">
-            <li class=" ">
-              <button class="categoryButton">
-                <div class="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
-                  <span class="inline-block">
-                    <svg class="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <nav className=" bg-transparent border-0 mb-12 lg:mb-14 relative flex justify-center w-full text-sm md:text-base">
+          <ul className="flex items-center px-3 bg-white rounded-full shadow-lg overflow-x-auto">
+            <li className=" ">
+              <button className="categoryButton">
+                <div className="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
+                  <span className="inline-block">
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M12 16C15.866 16 19 12.866 19 9C19 5.13401 15.866 2 12 2C8.13401 2 5 5.13401 5 9C5 12.866 8.13401 16 12 16Z"
                         stroke="currentColor"
@@ -36,11 +36,11 @@ const CategoryProduct = () => {
                 </div>
               </button>
             </li>
-            <li class=" ">
-              <button class="categoryButton">
-                <div class="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
-                  <span class="inline-block">
-                    <svg class="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <li className=" ">
+              <button className="categoryButton">
+                <div className="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
+                  <span className="inline-block">
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M10.25 21.5C14.5302 21.5 18 18.0302 18 13.75C18 9.46979 14.5302 6 10.25 6C5.96979 6 2.5 9.46979 2.5 13.75C2.5 18.0302 5.96979 21.5 10.25 21.5Z"
                         stroke="currentColor"
@@ -56,11 +56,11 @@ const CategoryProduct = () => {
                 </div>
               </button>
             </li>
-            <li class=" ">
-              <button class="categoryButton">
-                <div class="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
-                  <span class="inline-block">
-                    <svg class="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <li className=" ">
+              <button className="categoryButton">
+                <div className="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
+                  <span className="inline-block">
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M21.08 8.58003V15.42C21.08 16.54 20.48 17.58 19.51 18.15L13.57 21.58C12.6 22.14 11.4 22.14 10.42 21.58L4.48003 18.15C3.51003 17.59 2.91003 16.55 2.91003 15.42V8.58003C2.91003 7.46003 3.51003 6.41999 4.48003 5.84999L10.42 2.42C11.39 1.86 12.59 1.86 13.57 2.42L19.51 5.84999C20.48 6.41999 21.08 7.45003 21.08 8.58003Z"
                         stroke="currentColor"
@@ -88,11 +88,11 @@ const CategoryProduct = () => {
                 </div>
               </button>
             </li>
-            <li class=" ">
-              <button class="categoryButton">
-                <div class="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
-                  <span class="inline-block">
-                    <svg class="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <li className=" ">
+              <button className="categoryButton">
+                <div className="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
+                  <span className="inline-block">
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M17.1801 18C19.5801 18 20.1801 16.65 20.1801 15V9C20.1801 7.35 19.5801 6 17.1801 6C14.7801 6 14.1801 7.35 14.1801 9V15C14.1801 16.65 14.7801 18 17.1801 18Z"
                         stroke="currentColor"
@@ -116,11 +116,11 @@ const CategoryProduct = () => {
                 </div>
               </button>
             </li>
-            <li class=" ">
-              <button class="categoryButton">
-                <div class="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
-                  <span class="inline-block">
-                    <svg class="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <li className=" ">
+              <button className="categoryButton">
+                <div className="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
+                  <span className="inline-block">
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M16.7 18.98H7.30002C6.88002 18.98 6.41002 18.65 6.27002 18.25L2.13002 6.66999C1.54002 5.00999 2.23002 4.49999 3.65002 5.51999L7.55002 8.30999C8.20002 8.75999 8.94002 8.52999 9.22002 7.79999L10.98 3.10999C11.54 1.60999 12.47 1.60999 13.03 3.10999L14.79 7.79999C15.07 8.52999 15.81 8.75999 16.45 8.30999L20.11 5.69999C21.67 4.57999 22.42 5.14999 21.78 6.95999L17.74 18.27C17.59 18.65 17.12 18.98 16.7 18.98Z"
                         stroke="currentColor"
@@ -136,11 +136,11 @@ const CategoryProduct = () => {
                 </div>
               </button>
             </li>
-            <li class=" ">
-              <button class="categoryButton">
-                <div class="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
-                  <span class="inline-block">
-                    <svg class="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <li className=" ">
+              <button className="categoryButton">
+                <div className="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">
+                  <span className="inline-block">
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M10.7998 3.40005L7.19982 7.70005C7.09982 7.90005 6.99982 8.20005 6.89982 8.40005L5.19982 17C5.09982 17.6 5.39982 18.3 5.89982 18.6L11.1998 21.6C11.5998 21.8 12.2998 21.8 12.6998 21.6L17.9998 18.6C18.4998 18.3 18.7998 17.6 18.6998 17L16.9998 8.40005C16.9998 8.20005 16.7998 7.90005 16.6998 7.70005L13.0998 3.40005C12.4998 2.60005 11.4998 2.60005 10.7998 3.40005Z"
                         stroke="currentColor"
@@ -168,21 +168,21 @@ const CategoryProduct = () => {
         {/* grid */}
         <div className="grid gap-4 md:gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="cardCategory">
-            <div class="absolute bottom-0 right-0 max-w-[280px] opacity-80">
+            <div className="absolute bottom-0 right-0 max-w-[280px] opacity-80">
               <img src="https://chisnghiax.com/ciseco/static/media/explore5.31cdd38104cf6ff9b87f13d23831c063.svg" alt="" />
             </div>
-            <div class="flex flex-col justify-between">
-              <div class="flex justify-between items-center">
-                <div class=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
-                  <img src={cat1} class="object-cover w-full h-full" alt="nc-img" />
+            <div className="flex flex-col justify-between">
+              <div className="flex justify-between items-center">
+                <div className=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
+                  <img src={cat1} className="object-cover w-full h-full" alt="nc-img" />
                 </div>
-                <span class="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
+                <span className="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
               </div>
-              <div class="mt-16">
-                <span class="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
-                <h2 class="text-2xl sm:text-3xl font-semibold">Cycling Jersey</h2>
+              <div className="mt-16">
+                <span className="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
+                <h2 className="text-2xl sm:text-3xl font-semibold">Cycling Jersey</h2>
               </div>
-              <Link to="/category" class=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
+              <Link to="/category" className=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
                 <span>See Collection</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +191,7 @@ const CategoryProduct = () => {
                   stroke-width="1.5"
                   stroke="currentColor"
                   aria-hidden="true"
-                  class="w-4 h-4 ml-2.5"
+                  className="w-4 h-4 ml-2.5"
                 >
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                 </svg>
@@ -200,21 +200,21 @@ const CategoryProduct = () => {
           </div>
           {/* card start */}
           <div className="cardCategory">
-            <div class="absolute bottom-0 right-0 max-w-[280px] opacity-80">
+            <div className="absolute bottom-0 right-0 max-w-[280px] opacity-80">
               <img src="https://chisnghiax.com/ciseco/static/media/explore1.775937cb2511726e48c3fc70025fab60.svg" alt="" />
             </div>
-            <div class="flex flex-col justify-between">
-              <div class="flex justify-between items-center">
-                <div class=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
-                  <img src={cat2} class="object-cover w-full h-full" alt="nc-img" />
+            <div className="flex flex-col justify-between">
+              <div className="flex justify-between items-center">
+                <div className=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
+                  <img src={cat2} className="object-cover w-full h-full" alt="nc-img" />
                 </div>
-                <span class="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
+                <span className="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
               </div>
-              <div class="mt-16">
-                <span class="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
-                <h2 class="text-2xl sm:text-3xl font-semibold">Backpack</h2>
+              <div className="mt-16">
+                <span className="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
+                <h2 className="text-2xl sm:text-3xl font-semibold">Backpack</h2>
               </div>
-              <Link to="/category" class=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
+              <Link to="/category" className=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
                 <span>See Collection</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -223,7 +223,7 @@ const CategoryProduct = () => {
                   stroke-width="1.5"
                   stroke="currentColor"
                   aria-hidden="true"
-                  class="w-4 h-4 ml-2.5"
+                  className="w-4 h-4 ml-2.5"
                 >
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                 </svg>
@@ -232,21 +232,21 @@ const CategoryProduct = () => {
           </div>
           {/* card start */}
           <div className="cardCategory">
-            <div class="absolute bottom-0 right-0 max-w-[280px] opacity-80">
+            <div className="absolute bottom-0 right-0 max-w-[280px] opacity-80">
               <img src="https://chisnghiax.com/ciseco/static/media/explore2.1ceb7512bd65219296c27bc4ecc85ff6.svg" alt="" />
             </div>
-            <div class="flex flex-col justify-between">
-              <div class="flex justify-between items-center">
-                <div class=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
-                  <img src={cat3} class="object-cover w-full h-full" alt="nc-img" />
+            <div className="flex flex-col justify-between">
+              <div className="flex justify-between items-center">
+                <div className=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
+                  <img src={cat3} className="object-cover w-full h-full" alt="nc-img" />
                 </div>
-                <span class="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
+                <span className="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
               </div>
-              <div class="mt-16">
-                <span class="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
-                <h2 class="text-2xl sm:text-3xl font-semibold">Shoes</h2>
+              <div className="mt-16">
+                <span className="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
+                <h2 className="text-2xl sm:text-3xl font-semibold">Shoes</h2>
               </div>
-              <Link to="/category" class=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
+              <Link to="/category" className=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
                 <span>See Collection</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -255,7 +255,7 @@ const CategoryProduct = () => {
                   stroke-width="1.5"
                   stroke="currentColor"
                   aria-hidden="true"
-                  class="w-4 h-4 ml-2.5"
+                  className="w-4 h-4 ml-2.5"
                 >
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                 </svg>
@@ -264,21 +264,21 @@ const CategoryProduct = () => {
           </div>
           {/* card start */}
           <div className="cardCategory">
-            <div class="absolute bottom-0 right-0 max-w-[280px] opacity-80">
+            <div className="absolute bottom-0 right-0 max-w-[280px] opacity-80">
               <img src="https://chisnghiax.com/ciseco/static/media/explore3.94b86e236316334ee0f6d22e7c41e3bc.svg" alt="" />
             </div>
-            <div class="flex flex-col justify-between">
-              <div class="flex justify-between items-center">
-                <div class=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
-                  <img src={cat4} class="object-cover w-full h-full" alt="nc-img" />
+            <div className="flex flex-col justify-between">
+              <div className="flex justify-between items-center">
+                <div className=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
+                  <img src={cat4} className="object-cover w-full h-full" alt="nc-img" />
                 </div>
-                <span class="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
+                <span className="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
               </div>
-              <div class="mt-16">
-                <span class="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
-                <h2 class="text-2xl sm:text-3xl font-semibold">Recycled Blanket</h2>
+              <div className="mt-16">
+                <span className="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
+                <h2 className="text-2xl sm:text-3xl font-semibold">Recycled Blanket</h2>
               </div>
-              <Link to="/category" class=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
+              <Link to="/category" className=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
                 <span>See Collection</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -287,7 +287,7 @@ const CategoryProduct = () => {
                   stroke-width="1.5"
                   stroke="currentColor"
                   aria-hidden="true"
-                  class="w-4 h-4 ml-2.5"
+                  className="w-4 h-4 ml-2.5"
                 >
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                 </svg>
@@ -296,21 +296,21 @@ const CategoryProduct = () => {
           </div>
           {/* card start */}
           <div className="cardCategory">
-            <div class="absolute bottom-0 right-0 max-w-[280px] opacity-80">
+            <div className="absolute bottom-0 right-0 max-w-[280px] opacity-80">
               <img src="https://chisnghiax.com/ciseco/static/media/explore6.d820796c6233d6fd068004c49905dda6.svg" alt="" />
             </div>
-            <div class="flex flex-col justify-between">
-              <div class="flex justify-between items-center">
-                <div class=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
-                  <img src={cat5} class="object-cover w-full h-full" alt="nc-img" />
+            <div className="flex flex-col justify-between">
+              <div className="flex justify-between items-center">
+                <div className=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
+                  <img src={cat5} className="object-cover w-full h-full" alt="nc-img" />
                 </div>
-                <span class="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
+                <span className="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
               </div>
-              <div class="mt-16">
-                <span class="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
-                <h2 class="text-2xl sm:text-3xl font-semibold">Car Coat</h2>
+              <div className="mt-16">
+                <span className="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
+                <h2 className="text-2xl sm:text-3xl font-semibold">Car Coat</h2>
               </div>
-              <Link to="/category" class=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
+              <Link to="/category" className=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
                 <span>See Collection</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -319,7 +319,7 @@ const CategoryProduct = () => {
                   stroke-width="1.5"
                   stroke="currentColor"
                   aria-hidden="true"
-                  class="w-4 h-4 ml-2.5"
+                  className="w-4 h-4 ml-2.5"
                 >
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                 </svg>
@@ -328,21 +328,21 @@ const CategoryProduct = () => {
           </div>
           {/* last card */}
           <div className="cardCategory">
-            <div class="absolute bottom-0 right-0 max-w-[280px] opacity-80">
+            <div className="absolute bottom-0 right-0 max-w-[280px] opacity-80">
               <img src="https://chisnghiax.com/ciseco/static/media/explore9.9cb58d1f5a9bf47be0be877012199caa.svg" alt="" />
             </div>
-            <div class="flex flex-col justify-between">
-              <div class="flex justify-between items-center">
-                <div class=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
-                  <img src={cat6} class="object-cover w-full h-full" alt="nc-img" />
+            <div className="flex flex-col justify-between">
+              <div className="flex justify-between items-center">
+                <div className=" w-20 h-20 rounded-full overflow-hidden z-0 bg-indigo-50">
+                  <img src={cat6} className="object-cover w-full h-full" alt="nc-img" />
                 </div>
-                <span class="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
+                <span className="text-xs text-slate-700 dark:text-neutral-300 font-medium">242 products</span>
               </div>
-              <div class="mt-16">
-                <span class="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
-                <h2 class="text-2xl sm:text-3xl font-semibold">Cycling Shorts</h2>
+              <div className="mt-16">
+                <span className="block mb-2 text-sm text-slate-500 dark:text-slate-400">Manufacturar</span>
+                <h2 className="text-2xl sm:text-3xl font-semibold">Cycling Shorts</h2>
               </div>
-              <Link to="/category" class=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
+              <Link to="/category" className=" mt-16 flex items-center text-sm font-medium group-hover:text-primary-500 transition-colors">
                 <span>See Collection</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -351,7 +351,7 @@ const CategoryProduct = () => {
                   stroke-width="1.5"
                   stroke="currentColor"
                   aria-hidden="true"
-                  class="w-4 h-4 ml-2.5"
+                  className="w-4 h-4 ml-2.5"
                 >
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                 </svg>

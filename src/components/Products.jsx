@@ -13,48 +13,48 @@ const Products = () => {
   const [activeFilter, setActiveFilter] = useState(true);
   return (
     <div className="container mt-32">
-      <div class="max-w-2xl mb-8">
-        <h2 class="text-3xl md:text-4xl font-semibold">What's trending now</h2>
-        <span class="mt-2 md:mt-4 font-normal block text-base sm:text-lg text-neutral-500 dark:text-neutral-400">
+      <div className="max-w-2xl mb-8">
+        <h2 className="text-3xl md:text-4xl font-semibold">What's trending now</h2>
+        <span className="mt-2 md:mt-4 font-normal block text-base sm:text-lg text-neutral-500 dark:text-neutral-400">
           Discover the most trending products in Ciseco.
         </span>
       </div>
-      <div class="flex flex-col lg:flex-row lg:items-center justify-between space-y-6 lg:space-y-0 lg:space-x-2 ">
-        <nav class="nc-Nav relative flex w-full overflow-x-auto text-sm md:text-base hiddenScrollbar" data-nc-id="Nav">
-          <ul class="flex  sm:space-x-2">
-            <li class="nc-NavItem relative" data-nc-id="NavItem">
-              <button class="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full bg-slate-900 dark:bg-slate-100 text-slate-100 dark:text-slate-900  focus:outline-none">
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between space-y-6 lg:space-y-0 lg:space-x-2 ">
+        <nav className="nc-Nav relative flex w-full overflow-x-auto text-sm md:text-base hiddenScrollbar" data-nc-id="Nav">
+          <ul className="flex  sm:space-x-2">
+            <li className="nc-NavItem relative" data-nc-id="NavItem">
+              <button className="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full bg-slate-900 dark:bg-slate-100 text-slate-100 dark:text-slate-900  focus:outline-none">
                 All items
               </button>
             </li>
-            <li class="nc-NavItem relative" data-nc-id="NavItem">
-              <button class="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full text-slate-500 dark:text-slate-400 dark:hover:text-slate-100 hover:text-slate-800 hover:bg-slate-100/75 dark:hover:bg-slate-800 focus:outline-none">
+            <li className="nc-NavItem relative" data-nc-id="NavItem">
+              <button className="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full text-slate-500 dark:text-slate-400 dark:hover:text-slate-100 hover:text-slate-800 hover:bg-slate-100/75 dark:hover:bg-slate-800 focus:outline-none">
                 Women
               </button>
             </li>
-            <li class="nc-NavItem relative" data-nc-id="NavItem">
-              <button class="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full text-slate-500 dark:text-slate-400 dark:hover:text-slate-100 hover:text-slate-800 hover:bg-slate-100/75 dark:hover:bg-slate-800 focus:outline-none">
+            <li className="nc-NavItem relative" data-nc-id="NavItem">
+              <button className="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full text-slate-500 dark:text-slate-400 dark:hover:text-slate-100 hover:text-slate-800 hover:bg-slate-100/75 dark:hover:bg-slate-800 focus:outline-none">
                 Mans
               </button>
             </li>
-            <li class="nc-NavItem relative" data-nc-id="NavItem">
-              <button class="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full text-slate-500 dark:text-slate-400 dark:hover:text-slate-100 hover:text-slate-800 hover:bg-slate-100/75 dark:hover:bg-slate-800 focus:outline-none">
+            <li className="nc-NavItem relative" data-nc-id="NavItem">
+              <button className="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full text-slate-500 dark:text-slate-400 dark:hover:text-slate-100 hover:text-slate-800 hover:bg-slate-100/75 dark:hover:bg-slate-800 focus:outline-none">
                 Kids
               </button>
             </li>
-            <li class="nc-NavItem relative" data-nc-id="NavItem">
-              <button class="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full text-slate-500 dark:text-slate-400 dark:hover:text-slate-100 hover:text-slate-800 hover:bg-slate-100/75 dark:hover:bg-slate-800 focus:outline-none">
+            <li className="nc-NavItem relative" data-nc-id="NavItem">
+              <button className="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full text-slate-500 dark:text-slate-400 dark:hover:text-slate-100 hover:text-slate-800 hover:bg-slate-100/75 dark:hover:bg-slate-800 focus:outline-none">
                 jewels
               </button>
             </li>
           </ul>
         </nav>
-        <span class="block flex-shrink-0">
+        <span className="block flex-shrink-0">
           <button
             onClick={() => setActiveFilter(!activeFilter)}
-            class="nc-Button relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm sm:text-base font-medium pl-4 py-2.5 sm:pl-6  disabled:bg-opacity-90 bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 text-slate-50 dark:text-slate-800 shadow-xl w-full !pr-16 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0"
+            className="nc-Button relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm sm:text-base font-medium pl-4 py-2.5 sm:pl-6  disabled:bg-opacity-90 bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 text-slate-50 dark:text-slate-800 shadow-xl w-full !pr-16 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0"
           >
-            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none">
+            <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
               <path
                 d="M14.3201 19.07C14.3201 19.68 13.92 20.48 13.41 20.79L12.0001 21.7C10.6901 22.51 8.87006 21.6 8.87006 19.98V14.63C8.87006 13.92 8.47006 13.01 8.06006 12.51L4.22003 8.47C3.71003 7.96 3.31006 7.06001 3.31006 6.45001V4.13C3.31006 2.92 4.22008 2.01001 5.33008 2.01001H18.67C19.78 2.01001 20.6901 2.92 20.6901 4.03V6.25C20.6901 7.06 20.1801 8.07001 19.6801 8.57001"
                 stroke="currentColor"
@@ -72,8 +72,8 @@ const Products = () => {
               ></path>
               <path d="M19.87 17.12L18.87 16.12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <span class="block truncate ml-2.5">Filter</span>
-            <span class="absolute top-1/2 -translate-y-1/2 right-5">
+            <span className="block truncate ml-2.5">Filter</span>
+            <span className="absolute top-1/2 -translate-y-1/2 right-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -81,7 +81,7 @@ const Products = () => {
                 stroke-width="1.5"
                 stroke="currentColor"
                 aria-hidden="true"
-                class="w-5 h-5 rotate-180"
+                className="w-5 h-5 rotate-180"
               >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
               </svg>
@@ -90,17 +90,17 @@ const Products = () => {
         </span>
       </div>
       {activeFilter && (
-        <div class="opacity-100">
-          <div class="w-full border-b border-neutral-200 dark:border-neutral-700 my-8"></div>
-          <div class="flex lg:space-x-4">
-            <div class="hidden lg:flex flex-1 space-x-4">
-              <div class="relative">
+        <div className="opacity-100">
+          <div className="w-full border-b border-neutral-200 dark:border-neutral-700 my-8"></div>
+          <div className="flex lg:space-x-4">
+            <div className="hidden lg:flex flex-1 space-x-4">
+              <div className="relative">
                 <button
-                  class="flex items-center justify-center px-4 py-2 text-sm rounded-full border border-primary-500 bg-primary-50 text-primary-900 focus:outline-none "
+                  className="flex items-center justify-center px-4 py-2 text-sm rounded-full border border-primary-500 bg-primary-50 text-primary-900 focus:outline-none "
                   type="button"
                   aria-expanded="false"
                 >
-                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M8.67188 14.3298C8.67188 15.6198 9.66188 16.6598 10.8919 16.6598H13.4019C14.4719 16.6598 15.3419 15.7498 15.3419 14.6298C15.3419 13.4098 14.8119 12.9798 14.0219 12.6998L9.99187 11.2998C9.20187 11.0198 8.67188 10.5898 8.67188 9.36984C8.67188 8.24984 9.54187 7.33984 10.6119 7.33984H13.1219C14.3519 7.33984 15.3419 8.37984 15.3419 9.66984"
                       stroke="currentColor"
@@ -117,10 +117,10 @@ const Products = () => {
                       stroke-linejoin="round"
                     ></path>
                   </svg>
-                  <span class="ml-2 min-w-[90px]">100$ - 500$</span>
+                  <span className="ml-2 min-w-[90px]">100$ - 500$</span>
                   <span>
-                    <span class="flex-shrink-0 w-4 h-4 rounded-full bg-primary-500 text-white flex items-center justify-center ml-3 cursor-pointer">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                    <span className="flex-shrink-0 w-4 h-4 rounded-full bg-primary-500 text-white flex items-center justify-center ml-3 cursor-pointer">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
                         <path
                           fill-rule="evenodd"
                           d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
@@ -131,16 +131,16 @@ const Products = () => {
                   </span>
                 </button>
               </div>
-              <div class="relative">
+              <div className="relative">
                 <button
-                  class="flex items-center justify-center px-4 py-2 text-sm rounded-full border focus:outline-none select-none
+                  className="flex items-center justify-center px-4 py-2 text-sm rounded-full border focus:outline-none select-none
                border-neutral-300 dark:border-neutral-700
                  text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500
                 "
                   type="button"
                   aria-expanded="false"
                 >
-                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M8 2V5"
                       stroke="currentColor"
@@ -182,7 +182,7 @@ const Products = () => {
                       stroke-linejoin="round"
                     ></path>
                   </svg>
-                  <span class="ml-2">Categories</span>
+                  <span className="ml-2">Categories</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -190,22 +190,22 @@ const Products = () => {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="w-4 h-4 ml-3"
+                    className="w-4 h-4 ml-3"
                   >
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
                   </svg>
                 </button>
               </div>
-              <div class="relative">
+              <div className="relative">
                 <button
-                  class="flex items-center justify-center px-4 py-2 text-sm rounded-full border focus:outline-none select-none
+                  className="flex items-center justify-center px-4 py-2 text-sm rounded-full border focus:outline-none select-none
               
                 border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500
                 "
                   type="button"
                   aria-expanded="false"
                 >
-                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M7.01 18.0001L3 13.9901C1.66 12.6501 1.66 11.32 3 9.98004L9.68 3.30005L17.03 10.6501C17.4 11.0201 17.4 11.6201 17.03 11.9901L11.01 18.0101C9.69 19.3301 8.35 19.3301 7.01 18.0001Z"
                       stroke="currentColor"
@@ -246,7 +246,7 @@ const Products = () => {
                       stroke-linejoin="round"
                     ></path>
                   </svg>
-                  <span class="ml-2">Colors</span>
+                  <span className="ml-2">Colors</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -254,28 +254,28 @@ const Products = () => {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="w-4 h-4 ml-3"
+                    className="w-4 h-4 ml-3"
                   >
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
                   </svg>
                 </button>
               </div>
-              <div class="relative">
+              <div className="relative">
                 <button
-                  class="flex items-center justify-center px-4 py-2 text-sm rounded-full border focus:outline-none select-none
+                  className="flex items-center justify-center px-4 py-2 text-sm rounded-full border focus:outline-none select-none
               
                 border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500
                 "
                   type="button"
                   aria-expanded="false"
                 >
-                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M21 9V3H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     <path d="M3 15V21H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     <path d="M21 3L13.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     <path d="M10.5 13.5L3 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                   </svg>
-                  <span class="ml-2">Sizes</span>
+                  <span className="ml-2">Sizes</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -283,14 +283,14 @@ const Products = () => {
                     stroke-width="1.5"
                     stroke="currentColor"
                     aria-hidden="true"
-                    class="w-4 h-4 ml-3"
+                    className="w-4 h-4 ml-3"
                   >
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
                   </svg>
                 </button>
               </div>
-              <div class="flex items-center justify-center px-4 py-2 text-sm rounded-full border focus:outline-none cursor-pointer select-none border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500">
-                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <div className="flex items-center justify-center px-4 py-2 text-sm rounded-full border focus:outline-none cursor-pointer select-none border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M3.9889 14.6604L2.46891 13.1404C1.84891 12.5204 1.84891 11.5004 2.46891 10.8804L3.9889 9.36039C4.2489 9.10039 4.4589 8.59038 4.4589 8.23038V6.08036C4.4589 5.20036 5.1789 4.48038 6.0589 4.48038H8.2089C8.5689 4.48038 9.0789 4.27041 9.3389 4.01041L10.8589 2.49039C11.4789 1.87039 12.4989 1.87039 13.1189 2.49039L14.6389 4.01041C14.8989 4.27041 15.4089 4.48038 15.7689 4.48038H17.9189C18.7989 4.48038 19.5189 5.20036 19.5189 6.08036V8.23038C19.5189 8.59038 19.7289 9.10039 19.9889 9.36039L21.5089 10.8804C22.1289 11.5004 22.1289 12.5204 21.5089 13.1404L19.9889 14.6604C19.7289 14.9204 19.5189 15.4304 19.5189 15.7904V17.9403C19.5189 18.8203 18.7989 19.5404 17.9189 19.5404H15.7689C15.4089 19.5404 14.8989 19.7504 14.6389 20.0104L13.1189 21.5304C12.4989 22.1504 11.4789 22.1504 10.8589 21.5304L9.3389 20.0104C9.0789 19.7504 8.5689 19.5404 8.2089 19.5404H6.0589C5.1789 19.5404 4.4589 18.8203 4.4589 17.9403V15.7904C4.4589 15.4204 4.2489 14.9104 3.9889 14.6604Z"
                     stroke="currentColor"
@@ -302,19 +302,19 @@ const Products = () => {
                   <path d="M14.4945 14.5H14.5035" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                   <path d="M9.49451 9.5H9.50349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <span class="line-clamp-1 ml-2">On sale</span>
+                <span className="line-clamp-1 ml-2">On sale</span>
               </div>
-              <div class="!ml-auto">
-                <div class="relative">
+              <div className="!ml-auto">
+                <div className="relative">
                   <button
-                    class="flex items-center justify-center px-4 py-2 text-sm border rounded-full focus:outline-none select-none
+                    className="flex items-center justify-center px-4 py-2 text-sm border rounded-full focus:outline-none select-none
               
                 border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500
                 "
                     type="button"
                     aria-expanded="false"
                   >
-                    <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none">
+                    <svg className="w-4 h-4" viewBox="0 0 20 20" fill="none">
                       <path
                         d="M11.5166 5.70834L14.0499 8.24168"
                         stroke="currentColor"
@@ -355,7 +355,7 @@ const Products = () => {
                         stroke-linejoin="round"
                       ></path>
                     </svg>
-                    <span class="ml-2">Sort order</span>
+                    <span className="ml-2">Sort order</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -363,7 +363,7 @@ const Products = () => {
                       stroke-width="1.5"
                       stroke="currentColor"
                       aria-hidden="true"
-                      class="w-4 h-4 ml-3"
+                      className="w-4 h-4 ml-3"
                     >
                       <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
                     </svg>
@@ -371,10 +371,10 @@ const Products = () => {
                 </div>
               </div>
             </div>
-            <div class="flex overflow-x-auto lg:hidden space-x-4">
-              <div class="flex-shrink-0">
-                <div class="flex flex-shrink-0 items-center justify-center px-4 py-2 text-sm rounded-full border border-primary-500 bg-primary-50 text-primary-900 focus:outline-none cursor-pointer select-none">
-                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="flex overflow-x-auto lg:hidden space-x-4">
+              <div className="flex-shrink-0">
+                <div className="flex flex-shrink-0 items-center justify-center px-4 py-2 text-sm rounded-full border border-primary-500 bg-primary-50 text-primary-900 focus:outline-none cursor-pointer select-none">
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M22 6.5H16"
                       stroke="currentColor"
@@ -424,9 +424,9 @@ const Products = () => {
                       stroke-linejoin="round"
                     ></path>
                   </svg>
-                  <span class="ml-2">Products filters (3)</span>
-                  <span class="flex-shrink-0 w-4 h-4 rounded-full bg-primary-500 text-white flex items-center justify-center ml-3 cursor-pointer">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                  <span className="ml-2">Products filters (3)</span>
+                  <span className="flex-shrink-0 w-4 h-4 rounded-full bg-primary-500 text-white flex items-center justify-center ml-3 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
                       <path
                         fill-rule="evenodd"
                         d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
@@ -446,7 +446,7 @@ const Products = () => {
             <div className="">
               <img className="object-cover w-full h-full drop-shadow-xl" src={product1} alt="" />
             </div>
-            <div class="nc-shadow-lg rounded-full flex items-center justify-center absolute top-3 left-3 px-2.5 py-1.5 text-xs bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300">
+            <div className="nc-shadow-lg rounded-full flex items-center justify-center absolute top-3 left-3 px-2.5 py-1.5 text-xs bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -454,7 +454,7 @@ const Products = () => {
                 stroke-width="1.5"
                 stroke="currentColor"
                 aria-hidden="true"
-                class="w-3.5 h-3.5"
+                className="w-3.5 h-3.5"
               >
                 <path
                   stroke-linecap="round"
@@ -462,7 +462,7 @@ const Products = () => {
                   d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"
                 ></path>
               </svg>
-              <span class="ml-1 leading-none">Sold Out</span>
+              <span className="ml-1 leading-none">Sold Out</span>
             </div>
             <Link to="/wishlist">
               <button className="w-9 h-9 flex items-center justify-center rounded-full bg-white dark:bg-slate-900 text-neutral-700 dark:text-slate-200 nc-shadow-lg absolute top-3 right-3 z-10">
@@ -515,21 +515,21 @@ const Products = () => {
             </div>
           </div>
           <div className="space-y-4 px-2.5 pt-5 pb-2.5">
-            <div class="flex space-x-1">
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-violet-500" title="Violet">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-violet-400"></div>
+            <div className="flex space-x-1">
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-violet-500" title="Violet">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-violet-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Yellow">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-yellow-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Yellow">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-yellow-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Orange">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-orange-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Orange">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-orange-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Sky Blue">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-sky-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Sky Blue">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-sky-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Green">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-green-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Green">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-green-400"></div>
               </div>
             </div>
             <div>
@@ -647,8 +647,8 @@ const Products = () => {
               <img className="object-cover w-full h-full drop-shadow-xl" src={product3} alt="" />
             </div>
             <Link to="/wishlist">
-              <button class="w-9 h-9 flex items-center justify-center rounded-full bg-white dark:bg-slate-900 text-neutral-700 dark:text-slate-200 nc-shadow-lg absolute top-3 right-3 z-10">
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+              <button className="w-9 h-9 flex items-center justify-center rounded-full bg-white dark:bg-slate-900 text-neutral-700 dark:text-slate-200 nc-shadow-lg absolute top-3 right-3 z-10">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
                     stroke="#ef4444"
@@ -697,21 +697,21 @@ const Products = () => {
             </div>
           </div>
           <div className="space-y-4 px-2.5 pt-5 pb-2.5">
-            <div class="flex space-x-1">
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-violet-500" title="Violet">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-violet-400"></div>
+            <div className="flex space-x-1">
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-violet-500" title="Violet">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-violet-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Yellow">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-yellow-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Yellow">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-yellow-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Orange">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-orange-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Orange">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-orange-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Sky Blue">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-sky-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Sky Blue">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-sky-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Green">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-green-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Green">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-green-400"></div>
               </div>
             </div>
             <div>
@@ -751,7 +751,7 @@ const Products = () => {
             <div className="">
               <img className="object-cover w-full h-full drop-shadow-xl" src={product4} alt="" />
             </div>
-            <div class="nc-shadow-lg rounded-full flex items-center justify-center absolute top-3 left-3 px-2.5 py-1.5 text-xs bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300">
+            <div className="nc-shadow-lg rounded-full flex items-center justify-center absolute top-3 left-3 px-2.5 py-1.5 text-xs bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -759,7 +759,7 @@ const Products = () => {
                 stroke-width="1.5"
                 stroke="currentColor"
                 aria-hidden="true"
-                class="w-3.5 h-3.5"
+                className="w-3.5 h-3.5"
               >
                 <path
                   stroke-linecap="round"
@@ -767,11 +767,11 @@ const Products = () => {
                   d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
                 ></path>
               </svg>
-              <span class="ml-1 leading-none">New in</span>
+              <span className="ml-1 leading-none">New in</span>
             </div>
             <Link to="/wishlist">
-              <button class="w-9 h-9 flex items-center justify-center rounded-full bg-white dark:bg-slate-900 text-neutral-700 dark:text-slate-200 nc-shadow-lg absolute top-3 right-3 z-10">
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+              <button className="w-9 h-9 flex items-center justify-center rounded-full bg-white dark:bg-slate-900 text-neutral-700 dark:text-slate-200 nc-shadow-lg absolute top-3 right-3 z-10">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"
                     stroke="#ef4444"
@@ -1069,21 +1069,21 @@ const Products = () => {
             </div>
           </div>
           <div className="space-y-4 px-2.5 pt-5 pb-2.5">
-            <div class="flex space-x-1">
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-violet-500" title="Violet">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-violet-400"></div>
+            <div className="flex space-x-1">
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-violet-500" title="Violet">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-violet-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Yellow">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-yellow-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Yellow">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-yellow-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Orange">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-orange-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Orange">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-orange-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Sky Blue">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-sky-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Sky Blue">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-sky-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Green">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-green-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Green">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-green-400"></div>
               </div>
             </div>
             <div>
@@ -1175,21 +1175,21 @@ const Products = () => {
             </div>
           </div>
           <div className="space-y-4 px-2.5 pt-5 pb-2.5">
-            <div class="flex space-x-1">
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-violet-500" title="Violet">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-violet-400"></div>
+            <div className="flex space-x-1">
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-violet-500" title="Violet">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-violet-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Yellow">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-yellow-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Yellow">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-yellow-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Orange">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-orange-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Orange">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-orange-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Sky Blue">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-sky-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Sky Blue">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-sky-400"></div>
               </div>
-              <div class="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Green">
-                <div class="absolute inset-0.5 rounded-full z-0 bg-green-400"></div>
+              <div className="relative w-6 h-6 rounded-full overflow-hidden z-10 border cursor-pointer border-transparent" title="Green">
+                <div className="absolute inset-0.5 rounded-full z-0 bg-green-400"></div>
               </div>
             </div>
             <div>

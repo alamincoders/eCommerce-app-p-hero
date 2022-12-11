@@ -15,9 +15,9 @@ const MarketingBanner = () => {
           <div className="bg-[#E0E7FF] rounded-2xl">
             <img src={market1} className="w-4/6 mx-auto" alt="" />
           </div>
-          <div class="mt-5 flex-1 text-center">
-            <h2 class="text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-semibold">Travel Kits</h2>
-            <span class="block mt-0.5 sm:mt-1.5 text-sm text-neutral-500 dark:text-neutral-400">20+ categories</span>
+          <div className="mt-5 flex-1 text-center">
+            <h2 className="text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-semibold">Travel Kits</h2>
+            <span className="block mt-0.5 sm:mt-1.5 text-sm text-neutral-500 dark:text-neutral-400">20+ categories</span>
           </div>
         </div>
         {/* start */}
@@ -25,9 +25,9 @@ const MarketingBanner = () => {
           <div className="bg-[#F1F5F9] rounded-2xl">
             <img src={market2} className="w-4/6 mx-auto" alt="" />
           </div>
-          <div class="mt-5 flex-1 text-center">
-            <h2 class="text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-semibold">Beauty Products</h2>
-            <span class="block mt-0.5 sm:mt-1.5 text-sm text-neutral-500 dark:text-neutral-400">10+ categories</span>
+          <div className="mt-5 flex-1 text-center">
+            <h2 className="text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-semibold">Beauty Products</h2>
+            <span className="block mt-0.5 sm:mt-1.5 text-sm text-neutral-500 dark:text-neutral-400">10+ categories</span>
           </div>
         </div>
         {/* start */}
@@ -35,9 +35,9 @@ const MarketingBanner = () => {
           <div className="bg-[#E0F2FE] rounded-2xl">
             <img src={market3} className="w-4/6 mx-auto" alt="" />
           </div>
-          <div class="mt-5 flex-1 text-center">
-            <h2 class="text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-semibold">Sport Kits</h2>
-            <span class="block mt-0.5 sm:mt-1.5 text-sm text-neutral-500 dark:text-neutral-400">34+ categories</span>
+          <div className="mt-5 flex-1 text-center">
+            <h2 className="text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-semibold">Sport Kits</h2>
+            <span className="block mt-0.5 sm:mt-1.5 text-sm text-neutral-500 dark:text-neutral-400">34+ categories</span>
           </div>
         </div>
         {/* start */}
@@ -45,9 +45,9 @@ const MarketingBanner = () => {
           <div className="bg-[#FFEDD5] rounded-2xl">
             <img src={market4} className="w-4/6 mx-auto" alt="" />
           </div>
-          <div class="mt-5 flex-1 text-center">
-            <h2 class="text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-semibold">Pets Food</h2>
-            <span class="block mt-0.5 sm:mt-1.5 text-sm text-neutral-500 dark:text-neutral-400">12+ categories</span>
+          <div className="mt-5 flex-1 text-center">
+            <h2 className="text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-semibold">Pets Food</h2>
+            <span className="block mt-0.5 sm:mt-1.5 text-sm text-neutral-500 dark:text-neutral-400">12+ categories</span>
           </div>
         </div>
       </div>

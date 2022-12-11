@@ -7,8 +7,8 @@ const Navbar = () => {
     <>
       {" "}
       <nav>
-        <div class="wrapper">
-          <div class="logo">
+        <div className="wrapper">
+          <div className="logo">
             <a href="#">
               <img src={logo} alt="" />
             </a>
@@ -16,9 +16,9 @@ const Navbar = () => {
           <input type="radio" name="slide" id="menu_btn" />
           <input type="radio" name="slide" id="cancel_btn" />
 
-          <ul class="nav_links">
-            <label for="cancel_btn" class="btn cancel_btn">
-              <i class="fas fa-times"></i>
+          <ul className="nav_links">
+            <label for="cancel_btn" className="btn cancel_btn">
+              <i className="fas fa-times"></i>
             </label>
             <li>
               <a href="#">Home</a>
@@ -27,19 +27,19 @@ const Navbar = () => {
               <a href="#">About</a>
             </li>
             <li>
-              <a href="#" class="desktop_item">
+              <a href="#" className="desktop_item">
                 Products
               </a>
               <input type="checkbox" id="showMega" />
-              <label for="showMega" class="mobile_item">
+              <label for="showMega" className="mobile_item">
                 Products
               </label>
-              <div class="mega_box">
-                <div class="content">
+              <div className="mega_box">
+                <div className="content">
                   {/* <!--  --> */}
-                  <div class="row img_row">
+                  <div className="row img_row">
                     <header>Category</header>
-                    <div class="w-full rounded h-[200px]">
+                    <div className="w-full rounded h-[200px]">
                       <img
                         src="https://cdn.searchenginejournal.com/wp-content/uploads/2021/01/category-pages-featured-image-5ffbf8cca689f.png"
                         alt=""
@@ -48,9 +48,9 @@ const Navbar = () => {
                     </div>
                   </div>
                   {/* <!--  --> */}
-                  <div class="row">
+                  <div className="row">
                     <header>Design Services</header>
-                    <ul class="mega_links first_links">
+                    <ul className="mega_links first_links">
                       <li>
                         <a href="#">Graphics</a>
                       </li>
@@ -67,9 +67,9 @@ const Navbar = () => {
                   </div>
                   {/* <!--  --> */}
                   {/* <!--  --> */}
-                  <div class="row">
+                  <div className="row">
                     <header>Product Services</header>
-                    <ul class="mega_links">
+                    <ul className="mega_links">
                       <li>
                         <a href="#">Graphics</a>
                       </li>
@@ -86,9 +86,9 @@ const Navbar = () => {
                   </div>
                   {/* <!--  --> */}
                   {/* {/* <!--  --> */}
-                  <div class="row">
+                  <div className="row">
                     <header>SEO Services</header>
-                    <ul class="mega_links">
+                    <ul className="mega_links">
                       <li>
                         <a href="#">Graphics</a>
                       </li>
@@ -109,14 +109,14 @@ const Navbar = () => {
             </li>
             {/*  */}
             <li>
-              <a href="#" class="desktop_item">
+              <a href="#" className="desktop_item">
                 Explore
               </a>
               <input type="checkbox" id="showDrop" />
-              <label for="showDrop" class="mobile_item">
+              <label for="showDrop" className="mobile_item">
                 Explore
               </label>
-              <ul class="drop_menu">
+              <ul className="drop_menu">
                 <li>
                   <a href="#">Drop Menu 1</a>
                 </li>
@@ -142,8 +142,8 @@ const Navbar = () => {
             </li>
             <li title="cart" className="ml-5 relative">
               <a href="#" className="lg:absolute top-[11px] left-0 ">
-                <div class="w-3.5 h-3.5 flex items-center justify-center bg-[rgb(14,165,233)] absolute top-1.5 right-1.5 rounded-full text-[10px] leading-none text-white font-medium">
-                  <span class="mt-[1px]">3</span>
+                <div className="w-3.5 h-3.5 flex items-center justify-center bg-[rgb(14,165,233)] absolute top-1.5 right-1.5 rounded-full text-[10px] leading-none text-white font-medium">
+                  <span className="mt-[1px]">3</span>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                   <path
@@ -167,8 +167,8 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <label for="menu_btn" class="btn menu_btn">
-            <i class="fas fa-bars"></i>
+          <label for="menu_btn" className="btn menu_btn">
+            <i className="fas fa-bars"></i>
           </label>
         </div>
       </nav>
