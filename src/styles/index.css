@@ -10,3 +10,21 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+
+@layer components {
+  .btn_card_color {
+    @apply py-2 px-5 cursor-pointer bg-gradient-to-t to-slate-700 from-green-700 mx-1 rounded-full;
+  }
+  .discover_btn {
+    @apply mt-16 relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm font-medium py-3 px-4 sm:py-3.5 sm:px-6  drop-shadow-sm  bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-300  dark:hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2  dark:focus:ring-offset-0 hover:!bg-white z-10;
+  }
+  .categoryButton {
+    @apply block font-medium whitespace-nowrap px-3.5 py-2 text-sm sm:px-7 sm:py-3 capitalize rounded-full text-slate-600 dark:text-slate-400 dark:hover:text-slate-100 focus:text-slate-900  focus:outline-none hover:bg-slate-900 hover:text-white;
+  }
+  .cardCategory {
+    @apply relative w-full h-[349px] rounded-3xl overflow-hidden cursor-pointer bg-white dark:bg-neutral-900  hover:shadow-lg transition-shadow p-5;
+  }
+  .offerBnt {
+    @apply relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm sm:text-base font-medium py-3 px-4 sm:py-3.5 sm:px-6  disabled:bg-opacity-90 bg-slate-900  hover:bg-slate-800 text-slate-50  shadow-xl  focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+}
