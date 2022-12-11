@@ -52,7 +52,7 @@ const Products = () => {
         <span class="block flex-shrink-0">
           <button
             onClick={() => setActiveFilter(!activeFilter)}
-            class="nc-Button relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm sm:text-base font-medium pl-4 py-2.5 sm:pl-6  ttnc-ButtonPrimary disabled:bg-opacity-90 bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 text-slate-50 dark:text-slate-800 shadow-xl w-full !pr-16 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0"
+            class="nc-Button relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm sm:text-base font-medium pl-4 py-2.5 sm:pl-6  disabled:bg-opacity-90 bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 text-slate-50 dark:text-slate-800 shadow-xl w-full !pr-16 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0"
           >
             <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none">
               <path
@@ -97,7 +97,6 @@ const Products = () => {
               <div class="relative">
                 <button
                   class="flex items-center justify-center px-4 py-2 text-sm rounded-full border border-primary-500 bg-primary-50 text-primary-900 focus:outline-none "
-                  id="headlessui-popover-button-:r4c:"
                   type="button"
                   aria-expanded="false"
                 >
@@ -136,9 +135,8 @@ const Products = () => {
                 <button
                   class="flex items-center justify-center px-4 py-2 text-sm rounded-full border focus:outline-none select-none
                border-neutral-300 dark:border-neutral-700
-                border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500
+                 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500
                 "
-                  id="headlessui-popover-button-:r4f:"
                   type="button"
                   aria-expanded="false"
                 >
@@ -204,7 +202,6 @@ const Products = () => {
               
                 border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500
                 "
-                  id="headlessui-popover-button-:r4i:"
                   type="button"
                   aria-expanded="false"
                 >
@@ -269,7 +266,6 @@ const Products = () => {
               
                 border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500
                 "
-                  id="headlessui-popover-button-:r4l:"
                   type="button"
                   aria-expanded="false"
                 >
@@ -315,7 +311,6 @@ const Products = () => {
               
                 border-neutral-300 dark:border-neutral-700 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-500
                 "
-                    id="headlessui-popover-button-:r4o:"
                     type="button"
                     aria-expanded="false"
                   >
