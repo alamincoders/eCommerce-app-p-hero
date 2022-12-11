@@ -5,10 +5,10 @@ import dis2 from "../assets/discover/discover (4).png";
 
 const Discover = () => {
   return (
-    <div className="bg-white my-32 relative container">
+    <div className="bg-white my-16 md:my-24 lg:my-32 relative container">
       <div>
         <div className="content text-2xl md:text-3xl lg:text-4xl font-semibold">
-          <h2>
+          <h2 className="text-center lg:text-left">
             Discover more. <span className="text-gray-600">Good things are waiting for you</span>
           </h2>
         </div>

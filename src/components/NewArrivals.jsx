@@ -7,10 +7,10 @@ import product4 from "../assets/NewArrivals/product4.png";
 
 const NewArrivals = () => {
   return (
-    <div className="bg-white my-32 relative container">
+    <div className="bg-white  my-16 md:my-24 lg:my-32 relative container">
       <div className="content text-2xl md:text-3xl lg:text-4xl font-semibold mb-16">
         {/* heading text */}
-        <h2>
+        <h2 className="text-center lg:text-left">
           New Arrivals. <span className="text-gray-600">REY backpacks & bags</span>
         </h2>
       </div>

@@ -15,7 +15,7 @@ const CategoryProduct = () => {
           <h2 className="justify-center text-3xl md:text-4xl 2xl:text-5xl font-semibold">Start exploring.</h2>
         </div>
         <nav className=" bg-transparent border-0 mb-12 lg:mb-14 relative flex justify-center w-full text-sm md:text-base">
-          <ul className="flex items-center px-3 bg-white rounded-full shadow-lg overflow-x-auto">
+          <ul className="flex items-center px-3 bg-white rounded-full shadow-lg flex-wrap">
             <li className=" ">
               <button className="categoryButton">
                 <div className="flex items-center justify-center space-x-1.5 sm:space-x-2.5 text-xs sm:text-sm ">

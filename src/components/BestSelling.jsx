@@ -7,7 +7,7 @@ import product4 from "../assets/NewArrivals/product7.png";
 
 const BestSelling = () => {
   return (
-    <div className="bg-white my-32 relative container">
+    <div className="bg-white  my-16 md:my-24 lg:my-32 relative container">
       <div className="content text-2xl md:text-3xl lg:text-4xl font-semibold mb-16">
         {/* heading text */}
         <h2>

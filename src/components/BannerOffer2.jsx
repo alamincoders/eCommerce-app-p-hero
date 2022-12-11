@@ -5,8 +5,8 @@ import offerImg from "../assets/offer2.png";
 
 const BannerOffer2 = () => {
   return (
-    <div className="container mt-32">
-      <div className="relative  bg-[#F8FAFC]  rounded-[40px] px-24">
+    <div className="container mt-16 md:mt-24 lg:mt-32">
+      <div className="relative  bg-[#F8FAFC]  rounded-[40px] px-5 pt-10 lg:px-24">
         <div className="absolute inset-0">
           <img
             className="absolute w-full h-full object-contain dark:opacity-5"

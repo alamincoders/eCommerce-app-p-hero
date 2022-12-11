@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import offerImg from "../assets/offer.png";
+import Button from "./Button";
 
 const BannerOffer = () => {
   return (
     <div className=" container">
-      <div className="relative  bg-yellow-50  rounded-[40px] p-24">
+      <div className="relative  bg-yellow-50  rounded-[40px] p-5 lg:p-24">
         <div className="absolute inset-0">
           <img
             className="absolute w-full h-full object-contain dark:opacity-5"
@@ -16,7 +17,7 @@ const BannerOffer = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
-          <div className=" mt-10 lg:mt-0 w-5/6">
+          <div className=" mt-10 lg:mt-0 w-5/6 hidden lg:block">
             <img className="w-full h-full scale-0 lg:scale-[1.4]" src={offerImg} alt="" />
           </div>
           <div className="flex flex-col h-full justify-center">
@@ -32,10 +33,8 @@ const BannerOffer = () => {
             <span className="block mt-6 text-slate-500 dark:text-slate-400">
               Fashion is a form of self-expression and autonomy at a particular period and place.
             </span>
-            <div className="flex space-x-2 sm:space-x-5 mt-6 sm:mt-12">
-              <Link className="offerBnt" rel="noopener noreferrer">
-                Discover more
-              </Link>
+            <div className="flex space-x-2 sm:space-x-5 mt-6 sm:mt-8">
+              <Button title="Discover more" icon={false} bgColor="black" textColor="white" hoverBtn={true} />{" "}
             </div>
           </div>
         </div>

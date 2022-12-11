@@ -10,9 +10,9 @@ import product4 from "../assets/NewArrivals/product7.png";
 import product11 from "../assets/newproduct.png";
 
 const Products = () => {
-  const [activeFilter, setActiveFilter] = useState(true);
+  const [activeFilter, setActiveFilter] = useState(false);
   return (
-    <div className="container mt-32">
+    <div className="container mt-16 md:mt-24 lg:mt-32">
       <div className="max-w-2xl mb-8">
         <h2 className="text-3xl md:text-4xl font-semibold">What's trending now</h2>
         <span className="mt-2 md:mt-4 font-normal block text-base sm:text-lg text-neutral-500 dark:text-neutral-400">
@@ -20,7 +20,7 @@ const Products = () => {
         </span>
       </div>
       <div className="flex flex-col lg:flex-row lg:items-center justify-between space-y-6 lg:space-y-0 lg:space-x-2 ">
-        <nav className="nc-Nav relative flex w-full overflow-x-auto text-sm md:text-base hiddenScrollbar" data-nc-id="Nav">
+        <nav className="relative flex w-full overflow-x-auto text-sm md:text-base ">
           <ul className="flex  sm:space-x-2">
             <li className="nc-NavItem relative" data-nc-id="NavItem">
               <button className="block !leading-none font-medium whitespace-nowrap px-5 py-2.5 text-sm sm:text-base sm:px-6 sm:py-3 capitalize rounded-full bg-slate-900 dark:bg-slate-100 text-slate-100 dark:text-slate-900  focus:outline-none">
@@ -91,7 +91,7 @@ const Products = () => {
       </div>
       {activeFilter && (
         <div className="opacity-100">
-          <div className="w-full border-b border-neutral-200 dark:border-neutral-700 my-8"></div>
+          <div className="w-full  border-neutral-200 dark:border-neutral-700 my-8"></div>
           <div className="flex lg:space-x-4">
             <div className="hidden lg:flex flex-1 space-x-4">
               <div className="relative">

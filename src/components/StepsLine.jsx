@@ -9,10 +9,10 @@ const StepsLine = () => {
     <div className="container border-t-2 border-b-2 border-gray-100/70 py-16">
       <div
         style={{ backgroundImage: "url('https://chisnghiax.com/ciseco/static/media/VectorHIW.1a377ddaa77cc48b5b38a6739a397aff.svg')" }}
-        className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 bg-no-repeat bg-contain bg-top"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 bg-no-repeat bg-contain bg-top"
       >
         {/* card start */}
-        <div className="px-[30px]">
+        <div className="px-[30px] py-[30px] lg:py-0 bg-gray-50 lg:bg-transparent rounded-md lg:rounded-none drop-shadow-sm lg:drop-shadow-none">
           <div className="mb-4 sm:mb-10 max-w-[140px] mx-auto">
             <img src={step1} className="rounded-3xl" alt="nc-imgs" />
           </div>
@@ -26,7 +26,7 @@ const StepsLine = () => {
           </div>
         </div>
         {/* card start */}
-        <div className="px-[30px]">
+        <div className="px-[30px] py-[30px] lg:py-0  bg-gray-50 lg:bg-transparent rounded-md lg:rounded-none drop-shadow-sm lg:drop-shadow-none">
           <div className="mb-4 sm:mb-10 max-w-[140px] mx-auto">
             <img src={step2} className="rounded-3xl" alt="nc-imgs" />
           </div>
@@ -44,7 +44,7 @@ const StepsLine = () => {
           </div>
         </div>
         {/* card start */}
-        <div className="px-[30px]">
+        <div className="px-[30px] py-[30px] lg:py-0  bg-gray-50 lg:bg-transparent rounded-md lg:rounded-none drop-shadow-sm lg:drop-shadow-none">
           <div className="mb-4 sm:mb-10 max-w-[140px] mx-auto">
             <img src={step3} className="rounded-3xl" alt="nc-imgs" />
           </div>
@@ -58,7 +58,7 @@ const StepsLine = () => {
           </div>
         </div>
         {/* last card */}
-        <div className="px-[30px]">
+        <div className="px-[30px] py-[30px] lg:py-0  bg-gray-50 lg:bg-transparent rounded-md lg:rounded-none drop-shadow-sm lg:drop-shadow-none">
           <div className="mb-4 sm:mb-10 max-w-[140px] mx-auto">
             <img src={step4} className="rounded-3xl" alt="nc-imgs" />
           </div>

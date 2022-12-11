@@ -6,8 +6,8 @@ import market4 from "../assets/marketing/4.png";
 
 const MarketingBanner = () => {
   return (
-    <div className="container mt-32">
-      <div className="">
+    <div className="container mt-16 md:mt-24 lg:mt-32">
+      <div className="hidden lg:block">
         <h2 className="text-2xl md:text-3xl lg:text-4xl mb-16 font-semibold">Shop by department</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-6 ">

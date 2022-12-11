@@ -32,15 +32,15 @@ const HeroSection = () => {
         {slides.map((data, i) => (
           <SwiperSlide key={i}>
             <div className="flex items-center justify-between lg:justify-center flex-col lg:flex-row w-full h-full md:h-[700px] lg:h-[700px]">
-              <div className="w-full space-y-6">
-                <p className="text-xl font-semibold ml-2">{data?.first_text}</p>
-                <h1 className="text-3xl md:text-4xl lg:text-7xl  font-semibold flex flex-col leading-snug">
+              <div className="w-full space-y-6 px-4 py-5 md:py-2 lg:py-0">
+                <p className=" text-base lg:text-xl mt-8 md:mt-3 lg:mt-0 font-normal lg:font-semibold ml-0 lg:ml-2">{data?.first_text}</p>
+                <h1 className="text-3xl md:text-4xl lg:text-7xl  font-semibold flex flex-col lg:leading-snug">
                   <span>{data?.title[0]}</span>
                   <span>{data?.title[1]}</span>
                 </h1>
-                <Button title="Explore now" />
+                <Button title="Explore now" icon={true} bgColor="black" textColor="white" hoverBtn={true} />
               </div>
-              <div className="w-full h-full ">
+              <div className="w-full h-full">
                 <img className="w-full h-full -z-10" src={data.banner} alt="" />
               </div>
             </div>

@@ -16,9 +16,10 @@ import thirdImg3 from "../assets/Chosen/third/img3.png";
 
 const ChosenSection = () => {
   return (
-    <div className="container mt-32">
-      <div className="mb-16">
+    <div className="container mt-16 md:mt-24 lg:mt-32">
+      <div className="mb-8 lg:mb-16 hidden lg:block">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">Chosen by our experts</h2>
+        <div className="hidden lg:block  w-80 h-2 mt-2 bg-green-300/10 rounded-full"></div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
