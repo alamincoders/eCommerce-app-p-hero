@@ -1,9 +1,13 @@
-import React from "react";
+import "../styles/global.css";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const Root = () => {
   return (
     <>
-      <header>Header</header>
+      <header>
+        <Navbar />
+      </header>
 
       {/* main */}
 
@@ -11,7 +15,9 @@ const Root = () => {
 
       {/* footer */}
 
-      <footer>Footer</footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
