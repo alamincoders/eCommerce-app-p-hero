@@ -17,7 +17,7 @@ import Products from "../components/Products";
 const Root = () => {
   return (
     <>
-      <header>
+      <header className="relative mt-[65px]">
         <Navbar />
       </header>
 
