@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import logo from "../../assets/logo.svg";
 
@@ -16,9 +17,9 @@ const Navbar = () => {
       <nav>
         <div className="wrapper">
           <div className="logo">
-            <a href="#">
+            <Link to="/">
               <img src={logo} alt="" />
-            </a>
+            </Link>
           </div>
           <input type="radio" name="slide" id="menu_btn" />
           <input type="radio" name="slide" id="cancel_btn" />
@@ -70,10 +71,10 @@ const Navbar = () => {
               <>
                 {" "}
                 <li>
-                  <a href="#">Home</a>
+                  <Link to="/home">Home</Link>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <Link to="/about">About</Link>
                 </li>
                 <li>
                   <a href="#" className="desktop_item">
@@ -122,57 +123,60 @@ const Navbar = () => {
                       </div>
                       {/* <!--  --> */}
                       <div className="row">
-                        <header>Design Services</header>
+                        <header>Clothing</header>
                         <ul className="mega_links first_links">
                           <li>
-                            <a href="#">Graphics</a>
+                            <a href="#">Activewear</a>
                           </li>
                           <li>
-                            <a href="#">Web Design</a>
+                            <a href="#">Coats & Jackets</a>
                           </li>
                           <li>
-                            <a href="#">Architecture</a>
+                            <a href="#">Sleep & Lounge</a>
                           </li>
                           <li>
-                            <a href="#">Ui / Ux</a>
+                            <a href="#">Sweatshirts</a>
                           </li>
                         </ul>
                       </div>
                       {/* <!--  --> */}
                       {/* <!--  --> */}
                       <div className="row">
-                        <header>Product Services</header>
+                        <header>Accessories</header>
                         <ul className="mega_links">
                           <li>
-                            <a href="#">Graphics</a>
+                            <a href="#">Sunglasses</a>
                           </li>
                           <li>
-                            <a href="#">Web Design</a>
+                            <a href="#">Gloves</a>
                           </li>
                           <li>
-                            <a href="#">Architecture</a>
+                            <a href="#">Scarves</a>
                           </li>
                           <li>
-                            <a href="#">Ui / Ux</a>
+                            <a href="#">Wallets</a>
                           </li>
                         </ul>
                       </div>
                       {/* <!--  --> */}
                       {/* {/* <!--  --> */}
                       <div className="row">
-                        <header>SEO Services</header>
+                        <header>Shoes</header>
                         <ul className="mega_links">
                           <li>
-                            <a href="#">Graphics</a>
+                            <a href="#">Boots</a>
                           </li>
                           <li>
-                            <a href="#">Web Design</a>
+                            <a href="#">Loafers</a>
                           </li>
                           <li>
-                            <a href="#">Architecture</a>
+                            <a href="#">Slip-Ons</a>
                           </li>
                           <li>
-                            <a href="#">Ui / Ux</a>
+                            <a href="#">Slippers</a>
+                          </li>{" "}
+                          <li>
+                            <a href="#">Sneakers</a>
                           </li>
                         </ul>
                       </div>
@@ -215,30 +219,30 @@ const Navbar = () => {
                   </label>
                   <ul className="drop_menu">
                     <li>
-                      <a href="#">Drop Menu 1</a>
+                      <a href="#">Category Page </a>
                     </li>
                     <li>
-                      <a href="#">Drop Menu 2</a>
+                      <a href="#">Product Details</a>
                     </li>
                     <li>
-                      <a href="#">Drop Menu 3</a>
+                      <a href="#">Cart Page</a>
                     </li>
                     <li>
-                      <a href="#">Drop Menu 4</a>
+                      <a href="#">Checkout Page</a>
                     </li>
                     <li>
-                      <a href="#">Drop Menu 5</a>
+                      <a href="#">Account</a>
                     </li>
                     <li>
-                      <a href="#">Drop Menu 6</a>
+                      <a href="#">Blogs</a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Customer Care</a>
+                  <Link to="/customer_care">Customer Care</Link>
                 </li>{" "}
                 <li className="block lg:hidden">
-                  <a href="#">Login/Register</a>
+                  <Link to="/login">Login/Register</Link>
                 </li>
                 <li onClick={() => setSearchClick(true)} title="search" className="relative ml-20 hidden lg:block">
                   <a href="#" className="lg:absolute top-[12px] -left-5 ">
@@ -259,7 +263,7 @@ const Navbar = () => {
                   </a>
                 </li>{" "}
                 <li title="cart" className="ml-5 relative hidden lg:block">
-                  <a href="#" className="lg:absolute top-[11px] left-0 ">
+                  <Link className="lg:absolute top-[11px] left-0 " to="/cart">
                     <div className="w-3.5 h-3.5 flex items-center justify-center bg-[rgb(14,165,233)] absolute top-1.5 right-1.5 rounded-full text-[10px] leading-none text-white font-medium">
                       <span className="mt-[1px]">3</span>
                     </div>
@@ -277,10 +281,11 @@ const Navbar = () => {
                         d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </li>{" "}
                 <li title="login/register" className="relative hidden lg:block">
-                  <a href="#" className="lg:absolute top-[11px] left-10 ">
+                  <Link className="lg:absolute top-[11px] left-10 " to="/login">
+                    {" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -295,7 +300,7 @@ const Navbar = () => {
                         d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </li>
               </>
             )}

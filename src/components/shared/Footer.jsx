@@ -87,10 +87,11 @@ const Footer = () => {
             <div>
               <h2 className="text-xl font-semibold mb-5">MY ACCOUNT</h2>
               <ul>
-                <li className="footer_links">Womans</li>
+                <li className="footer_links ">Womans</li>
                 <li className="footer_links">Clothing</li>
                 <li className="footer_links">Accessories</li>
                 <li className="footer_links">Featured</li>
+                <li className="footer_links">Terms and condition</li>
               </ul>
             </div>
             <div>
