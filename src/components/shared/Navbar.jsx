@@ -77,11 +77,35 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a href="#" className="desktop_item">
-                    Products
+                    Products{" "}
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4 inline-block"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                      </svg>
+                    </span>{" "}
                   </a>
                   <input type="checkbox" id="showMega" />
                   <label for="showMega" className="mobile_item">
-                    Products
+                    Products{" "}
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4 inline-block"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                      </svg>
+                    </span>{" "}
                   </label>
                   <div className="mega_box">
                     <div className="content">
@@ -159,11 +183,35 @@ const Navbar = () => {
                 {/*  */}
                 <li>
                   <a href="#" className="desktop_item">
-                    Explore
+                    Explore{" "}
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4 inline-block"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                      </svg>
+                    </span>{" "}
                   </a>
                   <input type="checkbox" id="showDrop" />
                   <label for="showDrop" className="mobile_item">
-                    Explore
+                    Explore{" "}
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4 inline-block"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                      </svg>
+                    </span>{" "}
                   </label>
                   <ul className="drop_menu">
                     <li>
@@ -192,7 +240,7 @@ const Navbar = () => {
                 <li className="block lg:hidden">
                   <a href="#">Login/Register</a>
                 </li>
-                <li onClick={() => setSearchClick(true)} title="search" className="relative ml-24 hidden lg:block">
+                <li onClick={() => setSearchClick(true)} title="search" className="relative ml-20 hidden lg:block">
                   <a href="#" className="lg:absolute top-[12px] -left-5 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

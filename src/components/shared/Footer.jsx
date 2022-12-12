@@ -78,10 +78,10 @@ const Footer = () => {
               </p>
 
               <div className="flex space-x-8">
-                <img className="w-6 h-6 object-fill object-center" src={facebook} alt="" />
-                <img className="w-6 h-6 object-fill object-center" src={youtube} alt="" />
-                <img className="w-6 h-6 object-fill object-center" src={instagram} alt="" />
-                <img className="w-6 h-6 object-fill object-center" src={twitter} alt="" />
+                <img className="w-6 h-6 object-fill object-center cursor-pointer" src={facebook} alt="" />
+                <img className="w-6 h-6 object-fill object-center cursor-pointer" src={youtube} alt="" />
+                <img className="w-6 h-6 object-fill object-center cursor-pointer" src={instagram} alt="" />
+                <img className="w-6 h-6 object-fill object-center cursor-pointer" src={twitter} alt="" />
               </div>
             </div>
             <div>
@@ -120,11 +120,11 @@ const Footer = () => {
           <p className="text-[#777777]"> 2022-23 alamincoders powered by Ciseco</p>
         </div>
         <div className="flex space-x-3">
-          <img src={payment1} alt="" />
-          <img src={payment2} alt="" />
-          <img src={payment3} alt="" />
-          <img src={payment4} alt="" />
-          <img src={payment5} alt="" />
+          <img className="cursor-pointer" src={payment1} alt="" />
+          <img className="cursor-pointer" src={payment2} alt="" />
+          <img className="cursor-pointer" src={payment3} alt="" />
+          <img className="cursor-pointer" src={payment4} alt="" />
+          <img className="cursor-pointer" src={payment5} alt="" />
         </div>
       </div>
     </>
