@@ -1,9 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 import logo from "../assets/logo.svg";
 
 const Navbar = () => {
   const [searchClick, setSearchClick] = useState(false);
+
+  const handleClick = () => {
+    setSearchClick(false);
+    Swal.fire("Thanks for searching!", "Unfortunately, the following items from your order are out of stock.", "success");
+  };
   return (
     <>
       {" "}
@@ -29,7 +35,7 @@ const Navbar = () => {
                     className="bg-gray-100 px-5 w-full focus:outline-none !block drop-shadow rounded-lg"
                     placeholder="Search item..."
                   />
-                  <button onClick={() => setSearchClick(false)} className="relative top-0 -left-16 bg-slate-300 p-3 rounded-full">
+                  <button type="submit" onClick={handleClick} className="relative top-0 -left-16 bg-slate-300 p-3 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
