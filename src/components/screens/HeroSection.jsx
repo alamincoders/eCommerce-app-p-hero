@@ -9,6 +9,9 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Aos from "aos";
+
+Aos.init({ duration: "1000" });
 
 const HeroSection = () => {
   return (
@@ -40,7 +43,7 @@ const HeroSection = () => {
                 </h1>
                 <Button title="Explore now" icon={true} bgColor={true} textColor={true} hoverBtn={true} />
               </div>
-              <div className="w-full h-full">
+              <div data-aos="zoom-out" className="w-full h-full">
                 <img className="w-full h-full -z-10" src={data.banner} alt="" />
               </div>
             </div>

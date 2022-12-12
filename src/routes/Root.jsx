@@ -9,6 +9,7 @@ import HeroSection from "../components/screens/HeroSection";
 import MarketingBanner from "../components/screens/MarketingBanner";
 import NewArrivals from "../components/screens/NewArrivals";
 import Products from "../components/screens/Products";
+import ScrollToTop from "../components/screens/ScrollToTop";
 import StepsLine from "../components/screens/StepsLine";
 import Testimonials from "../components/screens/Testimonials";
 import UiBlogs from "../components/screens/UiBlogs";
@@ -47,6 +48,7 @@ const Root = () => {
       <footer>
         <Footer />
       </footer>
+      <ScrollToTop />
     </>
   );
 };
