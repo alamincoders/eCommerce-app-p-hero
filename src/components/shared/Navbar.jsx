@@ -239,7 +239,7 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/customer_care">Customer Care</Link>
+                  <Link to="/help">Help Center</Link>
                 </li>{" "}
                 <li className="block lg:hidden">
                   <Link to="/login">Login/Register</Link>
