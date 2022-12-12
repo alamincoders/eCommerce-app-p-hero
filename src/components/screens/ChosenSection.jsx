@@ -1,18 +1,18 @@
 import React from "react";
-import firstBigImg from "../assets/Chosen/fist/big.png";
-import firstImg from "../assets/Chosen/fist/img1.png";
-import secondImg from "../assets/Chosen/fist/img2.png";
-import thirdImg from "../assets/Chosen/fist/img3.png";
+import firstBigImg from "../../assets/Chosen/fist/big.png";
+import firstImg from "../../assets/Chosen/fist/img1.png";
+import secondImg from "../../assets/Chosen/fist/img2.png";
+import thirdImg from "../../assets/Chosen/fist/img3.png";
 // second
-import SecondBigImg from "../assets/Chosen/second/big.png";
-import firstImg2 from "../assets/Chosen/second/img1.png";
-import secondImg2 from "../assets/Chosen/second/img2.png";
-import thirdImg2 from "../assets/Chosen/second/img3.png";
+import SecondBigImg from "../../assets/Chosen/second/big.png";
+import firstImg2 from "../../assets/Chosen/second/img1.png";
+import secondImg2 from "../../assets/Chosen/second/img2.png";
+import thirdImg2 from "../../assets/Chosen/second/img3.png";
 // third
-import ThirdBigImg from "../assets/Chosen/third/big.png";
-import firstImg3 from "../assets/Chosen/third/img1.png";
-import secondImg3 from "../assets/Chosen/third/img2.png";
-import thirdImg3 from "../assets/Chosen/third/img3.png";
+import ThirdBigImg from "../../assets/Chosen/third/big.png";
+import firstImg3 from "../../assets/Chosen/third/img1.png";
+import secondImg3 from "../../assets/Chosen/third/img2.png";
+import thirdImg3 from "../../assets/Chosen/third/img3.png";
 
 const ChosenSection = () => {
   return (

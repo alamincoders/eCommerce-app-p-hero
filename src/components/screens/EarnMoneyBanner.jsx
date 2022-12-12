@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import earnImg from "../assets/earn.png";
-import logo from "../assets/logo.svg";
-import Button from "./Button";
+import earnImg from "../../assets/earn.png";
+import logo from "../../assets/logo.svg";
+import Button from "../shared/Button";
 
 const EarnMoneyBanner = () => {
   return (

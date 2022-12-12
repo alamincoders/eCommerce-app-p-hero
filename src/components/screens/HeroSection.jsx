@@ -1,6 +1,6 @@
 import React from "react";
-import { slides } from "../constant/slidesData";
-import Button from "./Button";
+import { slides } from "../../constant/slidesData";
+import Button from "../shared/Button";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";

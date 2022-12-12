@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.svg";
-import offerImg from "../assets/offer.png";
-import Button from "./Button";
+import logo from "../../assets/logo.svg";
+import offerImg from "../../assets/offer.png";
+import Button from "../shared/Button";
 
 const BannerOffer = () => {
   return (

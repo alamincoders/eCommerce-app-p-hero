@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import cat1 from "../assets/category/cat1.png";
-import cat2 from "../assets/category/cat2.png";
-import cat3 from "../assets/category/cat3.png";
-import cat4 from "../assets/category/cat4.png";
-import cat5 from "../assets/category/cat5.png";
-import cat6 from "../assets/category/cat6.png";
+import cat1 from "../../assets/category/cat1.png";
+import cat2 from "../../assets/category/cat2.png";
+import cat3 from "../../assets/category/cat3.png";
+import cat4 from "../../assets/category/cat4.png";
+import cat5 from "../../assets/category/cat5.png";
+import cat6 from "../../assets/category/cat6.png";
 
 const CategoryProduct = () => {
   return (

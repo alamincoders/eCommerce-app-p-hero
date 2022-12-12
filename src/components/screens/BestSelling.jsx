@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import product2 from "../assets/NewArrivals/product1.png";
-import product1 from "../assets/NewArrivals/product5.png";
-import product3 from "../assets/NewArrivals/product6.png";
-import product4 from "../assets/NewArrivals/product7.png";
+import product2 from "../../assets/NewArrivals/product1.png";
+import product1 from "../../assets/NewArrivals/product5.png";
+import product3 from "../../assets/NewArrivals/product6.png";
+import product4 from "../../assets/NewArrivals/product7.png";
 
 const BestSelling = () => {
   return (

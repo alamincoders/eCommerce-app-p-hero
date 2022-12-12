@@ -1,20 +1,20 @@
+import BannerOffer from "../components/screens/BannerOffer";
+import BannerOffer2 from "../components/screens/BannerOffer2";
+import BestSelling from "../components/screens/BestSelling";
+import CategoryProduct from "../components/screens/CategoryProduct";
+import ChosenSection from "../components/screens/ChosenSection";
+import Discover from "../components/screens/Discover";
+import EarnMoneyBanner from "../components/screens/EarnMoneyBanner";
+import HeroSection from "../components/screens/HeroSection";
+import MarketingBanner from "../components/screens/MarketingBanner";
+import NewArrivals from "../components/screens/NewArrivals";
+import Products from "../components/screens/Products";
+import StepsLine from "../components/screens/StepsLine";
+import Testimonials from "../components/screens/Testimonials";
+import UiBlogs from "../components/screens/UiBlogs";
+import Footer from "../components/shared/Footer";
+import Navbar from "../components/shared/Navbar";
 import "../styles/global.css";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import HeroSection from "../components/HeroSection";
-import Discover from "../components/Discover";
-import NewArrivals from "../components/NewArrivals";
-import StepsLine from "../components/StepsLine";
-import EarnMoneyBanner from "../components/EarnMoneyBanner";
-import CategoryProduct from "../components/CategoryProduct";
-import BestSelling from "../components/BestSelling";
-import BannerOffer from "../components/BannerOffer";
-import ChosenSection from "../components/ChosenSection";
-import MarketingBanner from "../components/MarketingBanner";
-import BannerOffer2 from "../components/BannerOffer2";
-import Products from "../components/Products";
-import UiBlogs from "../components/UiBlogs";
-import Testimonials from "../components/Testimonials";
 
 const Root = () => {
   return (

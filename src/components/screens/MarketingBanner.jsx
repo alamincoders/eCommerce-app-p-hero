@@ -1,8 +1,8 @@
 import React from "react";
-import market1 from "../assets/marketing/1.png";
-import market2 from "../assets/marketing/2.png";
-import market3 from "../assets/marketing/3.png";
-import market4 from "../assets/marketing/4.png";
+import market1 from "../../assets/marketing/1.png";
+import market2 from "../../assets/marketing/2.png";
+import market3 from "../../assets/marketing/3.png";
+import market4 from "../../assets/marketing/4.png";
 
 const MarketingBanner = () => {
   return (

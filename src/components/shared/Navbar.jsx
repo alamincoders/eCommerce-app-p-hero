@@ -1,14 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import Swal from "sweetalert2";
-import logo from "../assets/logo.svg";
+import logo from "../../assets/logo.svg";
 
 const Navbar = () => {
   const [searchClick, setSearchClick] = useState(false);
 
   const handleClick = () => {
     setSearchClick(false);
-    Swal.fire("Thanks for searching!", "Unfortunately, the following items from your order are out of stock.", "success");
+    Swal.fire("Thanks for searching!", "Unfortunately, the following items from your search are out of stock.", "success");
   };
   return (
     <>

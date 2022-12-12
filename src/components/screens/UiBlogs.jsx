@@ -1,10 +1,10 @@
 import React from "react";
-import blogThumbnail from "../assets/blog/pexels-photo-6168061.jpeg";
-import author1 from "../assets/author/Image-2.405c62ff9ad88c47e28c.png";
-import UiBlog from "./UiBlog";
-import Button from "./Button";
+import blogThumbnail from "../../assets/blog/pexels-photo-6168061.jpeg";
+import author1 from "../../assets/author/Image-2.405c62ff9ad88c47e28c.png";
+import Button from "../shared/Button";
 import { Link } from "react-router-dom";
-import { uiBlogData } from "../constant/uiBlogData";
+import { uiBlogData } from "../../constant/uiBlogData";
+import UiBlog from "./UiBlog";
 
 const UiBlogs = () => {
   return (

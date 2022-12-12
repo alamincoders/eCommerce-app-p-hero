@@ -1,8 +1,8 @@
 import Aos from "aos";
 import React from "react";
-import dis1 from "../assets/discover/discover (1).png";
-import dis3 from "../assets/discover/discover (3).png";
-import dis2 from "../assets/discover/discover (4).png";
+import dis1 from "../../assets/discover/discover (1).png";
+import dis3 from "../../assets/discover/discover (3).png";
+import dis2 from "../../assets/discover/discover (4).png";
 
 Aos.init({ duration: "2000" });
 const Discover = () => {
