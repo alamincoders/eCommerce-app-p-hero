@@ -1,6 +1,5 @@
 import React from "react";
 import blogThumbnail from "../assets/blog/pexels-photo-6168061.jpeg";
-import blog1 from "../assets/blog/pexels-photo-10343245.jpeg";
 import author1 from "../assets/author/Image-2.405c62ff9ad88c47e28c.png";
 import UiBlog from "./UiBlog";
 import Button from "./Button";
