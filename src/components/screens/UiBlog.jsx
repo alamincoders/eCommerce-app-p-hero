@@ -3,7 +3,7 @@ import React from "react";
 const UiBlog = (props) => {
   const { title, desc, author, thumbnail } = props.data;
   return (
-    <div className="flex gap-4 cursor-pointer ">
+    <div className="flex flex-col-reverse lg:flex-row gap-4 cursor-pointer ">
       <div className="">
         <div className="desc space-y-3">
           <h2 className="text-base font-medium hover:text-blue-900 cursor-pointer duration-200 transition">{title}</h2>
