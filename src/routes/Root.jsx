@@ -13,6 +13,8 @@ import ChosenSection from "../components/ChosenSection";
 import MarketingBanner from "../components/MarketingBanner";
 import BannerOffer2 from "../components/BannerOffer2";
 import Products from "../components/Products";
+import UiBlogs from "../components/UiBlogs";
+import Testimonials from "../components/Testimonials";
 
 const Root = () => {
   return (
@@ -36,6 +38,8 @@ const Root = () => {
         <MarketingBanner />
         <BannerOffer2 />
         <Products />
+        <UiBlogs />
+        <Testimonials />
       </main>
 
       {/* footer */}
