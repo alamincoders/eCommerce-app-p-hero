@@ -186,7 +186,7 @@ const Navbar = () => {
                 <li className="block lg:hidden">
                   <a href="#">Login/Register</a>
                 </li>
-                <li onClick={() => setSearchClick(true)} title="search" className="relative ml-5 hidden lg:block">
+                <li onClick={() => setSearchClick(true)} title="search" className="relative ml-24 hidden lg:block">
                   <a href="#" className="lg:absolute top-[12px] -left-5 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
