@@ -3,9 +3,9 @@ import React from "react";
 const Button = ({ title, icon, bgColor, textColor, hoverBtn }) => {
   return (
     <button
-      className={`mt-8 bg-${bgColor} text-${textColor} py-3 md:py-4 lg:py-5 px-7 rounded-full ${
+      className={`mt-8 ${bgColor ? "bg-black" : "bg-white"} ${textColor ? "text-white" : "text-black"} py-3 md:py-4 lg:py-5 px-7 rounded-full ${
         hoverBtn ? "hover:bg-gray-800/90" : ""
-      } transition-colors duration-200 shadow-2xl shadow-red-200`}
+      } transition-colors duration-200 shadow-2xl shadow-red-200 cursor-pointer z-50`}
     >
       {title}
       <div className="search cursor-pointer inline-block align-middle">

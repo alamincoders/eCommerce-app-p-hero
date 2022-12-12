@@ -20,8 +20,8 @@ const EarnMoneyBanner = () => {
           </h1>
           <p className="text-xl text-gray-800">With Ciseco you will get freeship & savings combo...</p>
           <div className=" space-x-00 lg:space-x-4 space-y-4">
-            <Button title="Savings combo" icon={false} bgColor="black" textColor="white" hoverBtn={true} />{" "}
-            <Button title="Discover more" icon={false} bgColor="white" textColor="black" hoverBtn={false} />
+            <Button title="Savings combo" icon={false} bgColor={true} textColor={true} hoverBtn={true} />{" "}
+            <Button title="Discover more" icon={false} bgColor={false} textColor={false} hoverBtn={false} />
           </div>
         </div>
         <div className="w-full mt-10 md:mt-0 lg:mt-0">

@@ -38,7 +38,7 @@ const HeroSection = () => {
                   <span>{data?.title[0]}</span>
                   <span>{data?.title[1]}</span>
                 </h1>
-                <Button title="Explore now" icon={true} bgColor="black" textColor="white" hoverBtn={true} />
+                <Button title="Explore now" icon={true} bgColor={true} textColor={true} hoverBtn={true} />
               </div>
               <div className="w-full h-full">
                 <img className="w-full h-full -z-10" src={data.banner} alt="" />

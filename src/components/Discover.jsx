@@ -1,8 +1,10 @@
+import Aos from "aos";
 import React from "react";
 import dis1 from "../assets/discover/discover (1).png";
 import dis3 from "../assets/discover/discover (3).png";
 import dis2 from "../assets/discover/discover (4).png";
 
+Aos.init({ duration: "2000" });
 const Discover = () => {
   return (
     <div className="bg-white my-16 md:my-24 lg:my-32 relative container">
@@ -16,7 +18,7 @@ const Discover = () => {
       {/* main section start */}
       <div className="discoverItem my-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className="relative cursor-pointer w-full rounded-2xl overflow-hidden group bg-yellow-50 p-8">
+          <div data-aos="fade-up" className="relative cursor-pointer w-full rounded-2xl overflow-hidden group bg-yellow-50 p-8">
             <div className="text">
               <span className="block mb-2 text-sm text-slate-700">Explore new arrivals</span>
               <h2 className="text-xl md:text-2xl text-slate-900 font-semibold">
@@ -30,7 +32,7 @@ const Discover = () => {
             <span className="opacity-0 group-hover:opacity-40 absolute inset-0 bg-black/10 transition-opacity"></span>
           </div>
           {/* section start */}
-          <div className="relative cursor-pointer w-full rounded-2xl overflow-hidden group bg-red-50 p-8">
+          <div data-aos="fade-up" className="relative cursor-pointer w-full rounded-2xl overflow-hidden group bg-red-50 p-8">
             <div className="text">
               <span className="block mb-2 text-sm text-slate-700">Digital gift cards</span>
               <h2 className="text-xl md:text-2xl text-slate-900 font-semibold">
@@ -44,7 +46,7 @@ const Discover = () => {
             <span className="opacity-0 group-hover:opacity-40 absolute inset-0 bg-black/10 transition-opacity"></span>
           </div>
           {/* section start */}
-          <div className="relative cursor-pointer w-full rounded-2xl overflow-hidden group bg-blue-50 p-8">
+          <div data-aos="fade-up" className="relative cursor-pointer w-full rounded-2xl overflow-hidden group bg-blue-50 p-8">
             <div className="text">
               <span className="block mb-2 text-sm text-slate-700">Sale collection</span>
               <h2 className="text-xl md:text-2xl text-slate-900 font-semibold">
