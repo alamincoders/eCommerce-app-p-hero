@@ -9,11 +9,10 @@ const Blog = () => {
     <>
       {" "}
       <section className="bg-gray-50 py-8 md:py-12 lg:py-16">
-        <div className="container mt-10">Home/blogs</div>
         {/* main blog section */}
         <div className="container mx-auto  grid grid-cols-1 lg:grid-cols-[2fr,1fr] grid-rows-1 gap-x-10">
           <div className="">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-5">
               {/* every blog start */}
               {Array.from({ length: 4 }).map((_, idx) => (
                 <div className="p-5 lg:p-10 bg-white group  cursor-pointer relative shadow rounded">
@@ -82,7 +81,7 @@ const Blog = () => {
           </div>
 
           <div className="">
-            <div className="p-4 bg-white mt-16">
+            <div className="p-4 bg-white mt-5">
               <input type="text" className="w-full p-3 focus:outline-green-500 bg-transparent border rounded" placeholder="Search..." />
             </div>
 

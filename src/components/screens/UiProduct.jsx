@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const UiProduct = (props) => {
-  const { name, desc, image, review, price, size, quick_view, color, stock, new_in, rating } = props.data;
+  const { id, name, desc, image, review, price, size, quick_view, color, stock, new_in, rating } = props.data;
   return (
     <div className="main_card cursor-pointer">
       <div className="relative flex-shrink-0 bg-slate-50 dark:bg-slate-300 rounded-3xl overflow-hidden z-1 group ">
         {/* image */}
-        <Link to={`/category`}>
+        <Link to={`/category/${id}`}>
           <div className="">
             <img className="object-cover w-full h-full drop-shadow-xl" src={image} alt="" />
           </div>

@@ -11,8 +11,15 @@ const Blogs = () => {
         <Navbar />
       </header>
       <main>
+        <div className="mt-32 space-y-4 container">
+          <h2 className="text-4xl font-semibold">Our Blogs</h2>
+          <p className="text-[#6B7294]">
+            We not only help you design exceptional products, but also make it easy for you <br /> to share your designs with more like-minded people.
+          </p>
+          <hr />
+        </div>
         <Blog />
-        <Pagination />
+        <Pagination startPage="1" endPage="4" totalPage="58" />
       </main>
 
       <footer>

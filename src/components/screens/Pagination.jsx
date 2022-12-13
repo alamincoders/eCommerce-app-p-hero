@@ -1,11 +1,13 @@
 import React from "react";
 
-const Pagination = () => {
+const Pagination = ({ startPage, endPage, totalPage }) => {
   return (
     <div className=" my-10 container">
-      <div className="flex justify-between items-center flex-col space-y-3 ">
+      <div className="flex justify-between items-center flex-col lg:flex-row space-y-3 ">
         <div>
-          <p>Showing 1 to 4 of 57 results</p>
+          <p className=" text-gray-500 font-medium hover:text-blue-400 duration-200 cursor-pointer">
+            Showing {startPage} to {endPage} of {totalPage} results
+          </p>
         </div>
         <div className="flex flex-wrap">
           <button className="tag_btn hover:text-blue-500 transition duration-200 ease-in">
