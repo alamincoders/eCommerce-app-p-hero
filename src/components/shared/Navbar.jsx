@@ -126,16 +126,16 @@ const Navbar = () => {
                         <header>Clothing</header>
                         <ul className="mega_links first_links">
                           <li>
-                            <a href="#">Activewear</a>
+                            <Link to="/category">Activewear</Link>
                           </li>
                           <li>
-                            <a href="#">Coats & Jackets</a>
+                            <Link to="/category">Coats & Jackets</Link>
                           </li>
                           <li>
-                            <a href="#">Sleep & Lounge</a>
+                            <Link to="/category">Sleep & Lounge</Link>
                           </li>
                           <li>
-                            <a href="#">Sweatshirts</a>
+                            <a to="/category">Sweatshirts</a>
                           </li>
                         </ul>
                       </div>
@@ -145,16 +145,16 @@ const Navbar = () => {
                         <header>Accessories</header>
                         <ul className="mega_links">
                           <li>
-                            <a href="#">Sunglasses</a>
+                            <Link to="/category">Sunglasses</Link>
                           </li>
                           <li>
-                            <a href="#">Gloves</a>
+                            <Link to="/category">Gloves</Link>
                           </li>
                           <li>
-                            <a href="#">Scarves</a>
+                            <Link to="/category">Scarves</Link>
                           </li>
                           <li>
-                            <a href="#">Wallets</a>
+                            <Link to="/category">Wallets</Link>
                           </li>
                         </ul>
                       </div>
@@ -164,19 +164,19 @@ const Navbar = () => {
                         <header>Shoes</header>
                         <ul className="mega_links">
                           <li>
-                            <a href="#">Boots</a>
+                            <Link to="/category">Boots</Link>
                           </li>
                           <li>
-                            <a href="#">Loafers</a>
+                            <Link to="/category">Loafers</Link>
                           </li>
                           <li>
-                            <a href="#">Slip-Ons</a>
+                            <Link to="/category">Slip-Ons</Link>
                           </li>
                           <li>
-                            <a href="#">Slippers</a>
+                            <Link to="/category">Slippers</Link>
                           </li>{" "}
                           <li>
-                            <a href="#">Sneakers</a>
+                            <Link to="/category">Sneakers</Link>
                           </li>
                         </ul>
                       </div>
@@ -219,7 +219,7 @@ const Navbar = () => {
                   </label>
                   <ul className="drop_menu">
                     <li>
-                      <a href="#">Category Page </a>
+                      <Link to="/category">Category Page </Link>
                     </li>
                     <li>
                       <a href="#">Product Details</a>

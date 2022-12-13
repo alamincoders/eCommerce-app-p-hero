@@ -7,10 +7,11 @@ const UiProduct = (props) => {
     <div className="main_card cursor-pointer">
       <div className="relative flex-shrink-0 bg-slate-50 dark:bg-slate-300 rounded-3xl overflow-hidden z-1 group ">
         {/* image */}
-        <div className="">
-          <img className="object-cover w-full h-full drop-shadow-xl" src={image} alt="" />
-        </div>
-
+        <Link to={`/category`}>
+          <div className="">
+            <img className="object-cover w-full h-full drop-shadow-xl" src={image} alt="" />
+          </div>
+        </Link>
         {/* new in */}
         {new_in && (
           <div className="nc-shadow-lg rounded-full flex items-center justify-center absolute top-3 left-3 px-2.5 py-1.5 text-xs bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300">

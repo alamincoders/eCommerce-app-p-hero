@@ -10,6 +10,7 @@ import Login from "./routes/Login";
 import Register from "./routes/Register";
 import Payment from "./routes/Payment";
 import Contact from "./routes/Contact";
+import Category from "./routes/Category";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/payment",
     element: <Payment />,
+  },
+  {
+    path: "/category",
+    element: <Category />,
   },
 ]);
 
