@@ -1,25 +1,24 @@
 import React from "react";
-import Blog from "../components/screens/Blog";
 import Footer from "../components/shared/Footer";
 import Navbar from "../components/shared/Navbar";
-import Pagination from "../components/screens/Pagination";
+import SignUp from "../components/shared/SignUp";
 
-const Blogs = () => {
+const Register = () => {
   return (
     <>
       <header className="relative mt-[65px]">
         <Navbar />
       </header>
+
       <main>
-        <Blog />
-        <Pagination />
+        <SignUp />
       </main>
 
       <footer>
-        <Footer />{" "}
+        <Footer />
       </footer>
     </>
   );
 };
 
-export default Blogs;
+export default Register;

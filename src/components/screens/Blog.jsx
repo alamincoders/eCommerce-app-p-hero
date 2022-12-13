@@ -3,16 +3,11 @@ import { FaInstagramSquare, FaLinkedin, FaFacebookSquare, FaTwitterSquare, FaGoo
 import { BsArrowRightShort } from "react-icons/bs";
 import blogImg from "../../assets/blog/p-1.jpg";
 import recentBlog1 from "../../assets/blog/p-3.jpg";
-import Navbar from "../shared/Navbar";
-import Footer from "../shared/Footer";
-import Pagination from "./Pagination";
-
 const Blog = () => {
   const today = new Date().toLocaleDateString();
   return (
     <>
       {" "}
-      <Navbar />{" "}
       <section className="bg-gray-50 py-8 md:py-12 lg:py-16">
         <div className="container mt-10">Home/blogs</div>
         {/* main blog section */}
@@ -156,11 +151,6 @@ const Blog = () => {
           </div>
         </div>
       </section>{" "}
-      <Pagination />
-      {/*  <div className="mb-20">
-        <BannerOffer2 />
-      </div> */}
-      <Footer />{" "}
     </>
   );
 };

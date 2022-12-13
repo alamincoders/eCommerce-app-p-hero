@@ -25,7 +25,7 @@ const Navbar = () => {
           <input type="radio" name="slide" id="cancel_btn" />
 
           <ul className="nav_links">
-            <label for="cancel_btn" className="btn cancel_btn">
+            <label htmlFor="cancel_btn" className="btn cancel_btn">
               <i className="fas fa-times"></i>
             </label>
             {searchClick && (
@@ -93,7 +93,7 @@ const Navbar = () => {
                     </span>{" "}
                   </a>
                   <input type="checkbox" id="showMega" />
-                  <label for="showMega" className="mobile_item">
+                  <label htmlFor="showMega" className="mobile_item">
                     Products{" "}
                     <span>
                       <svg
@@ -202,7 +202,7 @@ const Navbar = () => {
                     </span>{" "}
                   </a>
                   <input type="checkbox" id="showDrop" />
-                  <label for="showDrop" className="mobile_item">
+                  <label htmlFor="showDrop" className="mobile_item">
                     Explore{" "}
                     <span>
                       <svg
@@ -229,12 +229,15 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a href="#">Checkout Page</a>
+                    </li>{" "}
+                    <li>
+                      <Link to="/payment">Payment Page</Link>
                     </li>
                     <li>
                       <a href="#">Account</a>
                     </li>
                     <li>
-                      <a href="#">Blogs</a>
+                      <Link to="/blogs">Blogs</Link>
                     </li>
                   </ul>
                 </li>
@@ -306,7 +309,7 @@ const Navbar = () => {
             )}
           </ul>
 
-          <label for="menu_btn" className="btn menu_btn">
+          <label htmlFor="menu_btn" className="btn menu_btn">
             <i className="fas fa-bars"></i>
           </label>
         </div>
