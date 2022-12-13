@@ -135,7 +135,7 @@ const Navbar = () => {
                             <Link to="/category">Sleep & Lounge</Link>
                           </li>
                           <li>
-                            <a to="/category">Sweatshirts</a>
+                            <Link to="/category">Sweatshirts</Link>
                           </li>
                         </ul>
                       </div>
