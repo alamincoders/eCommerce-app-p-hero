@@ -6,10 +6,10 @@ import Root from "./routes/Root";
 import ErrorPage from "./components/screens/ErrorPage";
 import Blogs from "./routes/Blogs";
 import About from "./routes/About";
-import Help from "./routes/Help";
 import Login from "./routes/Login";
 import Register from "./routes/Register";
 import Payment from "./routes/Payment";
+import Contact from "./routes/Contact";
 
 const router = createBrowserRouter([
   {
@@ -30,8 +30,8 @@ const router = createBrowserRouter([
     element: <About />,
   },
   {
-    path: "/help",
-    element: <Help />,
+    path: "/contact",
+    element: <Contact />,
   },
   {
     path: "/login",

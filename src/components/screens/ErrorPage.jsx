@@ -5,18 +5,18 @@ export default function ErrorPage() {
   console.error(error);
 
   return (
-    <div className="flex justify-center items-center bg-gray-200  h-screen">
-      <div className="text-center">
-        <h1 className="text-3xl mb-2">Oops!</h1>
-        <p className="text-md">Sorry, an unexpected error has occurred.</p>
-        <p className="my-3 text-red-600 font-medium rounded drop-shadow p-4">
-          <i>{error.statusText || error.message}</i>
-        </p>
-        <Link to="/">
-          {" "}
-          <button className="bg-orange-400 text-white p-3 rounded">Back to Home</button>
-        </Link>
+    <div class="h-screen w-full flex flex-col justify-center items-center bg-gradient-to-tl from-neutral-500 via-black to-blue-100">
+      <h1 class="text-9xl font-extrabold text-white tracking-widest">404</h1>
+      <div class="bg-[#FF6A3D] px-2 text-sm rounded rotate-12 absolute">
+        <i>{error.statusText || error.message}</i>
       </div>
+      <button class="mt-5">
+        <Link to="/" class="relative inline-block text-sm font-medium text-[#FF6A3D] group active:text-orange-500 focus:outline-none focus:ring">
+          <span class="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-[#FF6A3D] group-hover:translate-y-0 group-hover:translate-x-0"></span>
+
+          <span class="relative block px-8 py-3 bg-[#1A2238] border border-current">Go Home</span>
+        </Link>
+      </button>
     </div>
   );
 }

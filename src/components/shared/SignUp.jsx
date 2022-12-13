@@ -104,7 +104,7 @@ const SIgnUp = () => {
                   </button>
                   <div className="flex space-x-1 mt-2 justify-center">
                     <p>Already have an account?</p>{" "}
-                    <Link to="/register">
+                    <Link to="/login">
                       <button className="text-blue-700 hover:underline cursor-pointer text-sm">Sign in</button>
                     </Link>
                   </div>
