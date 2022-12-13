@@ -2,9 +2,9 @@ import React from "react";
 
 const ToggleBtn = () => {
   return (
-    <label class="switch">
+    <label className="switch">
       <input className="input_toggle" type="checkbox" />
-      <span class="slider"></span>
+      <span className="slider"></span>
     </label>
   );
 };

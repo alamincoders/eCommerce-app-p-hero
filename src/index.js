@@ -11,6 +11,7 @@ import Register from "./routes/Register";
 import Payment from "./routes/Payment";
 import Contact from "./routes/Contact";
 import Category from "./routes/Category";
+import BlogDetails from "./routes/BlogDetails";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/blogs",
     element: <Blogs />,
+  },
+  {
+    path: "/blogs/:id",
+    element: <BlogDetails />,
   },
   {
     path: "/about",

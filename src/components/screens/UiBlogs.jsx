@@ -23,9 +23,12 @@ const UiBlogs = () => {
             <img className="w-full h-full object-cover rounded-[30px]" src={blogThumbnail} alt="blog thumbnail" />
           </div>
           <div className="desc mt-10 space-y-4">
-            <h2 className="text-2xl font-medium hover:text-blue-900 cursor-pointer duration-200 transition">
-              Turpis Cursus In Hac Habitasse Platea Dictumst Quisque Sagittis Purus
-            </h2>
+            <Link to="/blogs/1">
+              {" "}
+              <h2 className="text-2xl font-medium hover:text-blue-900 hover:underline cursor-pointer duration-200 transition">
+                Turpis Cursus In Hac Habitasse Platea Dictumst Quisque Sagittis Purus
+              </h2>{" "}
+            </Link>
             <p className="text-[#B1B5BD]">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid quam repellat alias maiores voluptates fugit repudiandae dignissimos
               nostrum harum nam!...

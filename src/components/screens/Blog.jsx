@@ -3,6 +3,7 @@ import { FaInstagramSquare, FaLinkedin, FaFacebookSquare, FaTwitterSquare, FaGoo
 import { BsArrowRightShort } from "react-icons/bs";
 import blogImg from "../../assets/blog/p-1.jpg";
 import recentBlog1 from "../../assets/blog/p-3.jpg";
+import { Link } from "react-router-dom";
 const Blog = () => {
   const today = new Date().toLocaleDateString();
   return (
@@ -15,66 +16,70 @@ const Blog = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-5">
               {/* every blog start */}
               {Array.from({ length: 4 }).map((_, idx) => (
-                <div className="p-5 lg:p-10 bg-white group  cursor-pointer relative shadow rounded">
-                  <div className="overflow-hidden cursor-pointer w-full h-[300px]">
-                    <img
-                      src={blogImg}
-                      alt=""
-                      className=" w-full h-full object-cover object-center rounded-[15px] hover:scale-110 transition duration-300 ease-in-out"
-                    />
-                  </div>
-                  {/* author */}
-                  <div className="author my-8">
-                    <ul className="flex flex-wrap lg:flex-nowrap  space-x-8 ">
-                      <li className=" text-gray-500 text-sm">Business, News </li>
-                      <li className="list-disc text-gray-500 text-sm"> by admin </li>
-                      <li className="list-disc text-gray-500 text-sm">March 12, 2017</li>
-                    </ul>
-                  </div>
-                  {/* title */}
-                  <div className="title text-gray-700 group-hover:text-blue-800 group-hover:underline duration-200 font-semibold text-xl lg:text-2xl mb-5 ">
-                    <h>It’s your world Take control</h>
-                    <div className="h-[2px] w-20 bg-gray-300 mt-5"></div>
-                  </div>
-                  {/* desc */}
-                  <div className="text text-gray-600">
-                    <p>
-                      <small>
-                        {" "}
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore dignissimos, sapiente blanditiis adipisci possimus aliquid
-                        odio cumque iure. Facilis, nisi libero. Totam dolorem aperiam deleniti voluptatem laudantium aut, id eius...
-                      </small>
-                    </p>
-                  </div>
-
-                  {/* social and read more button */}
-
-                  <div className="block lg:flex space-y-4 lg:space-y-0 flex-wrap justify-between items-center mt-10">
-                    <div className="button mb-4">
-                      <button className="uppercase py-2.5 px-8 rounded-full border-2 border-gray-300 hover:bg-black transition duration-300 ease-in-out hover:text-white">
-                        Read more
-                      </button>
+                <Link to="/blogs/1" key={idx}>
+                  <div className="p-5 lg:p-10 bg-white group  cursor-pointer relative shadow rounded">
+                    <div className="overflow-hidden cursor-pointer w-full h-[300px]">
+                      <img
+                        src={blogImg}
+                        alt=""
+                        className=" w-full h-full object-cover object-center rounded-[15px] hover:scale-110 transition duration-300 ease-in-out"
+                      />
                     </div>
-                    <div className="social flex items-center  space-x-2 py-2.5 px-8 rounded-full  bg-gray-200">
-                      <h3>SHARE: </h3>
-                      <span>
-                        <FaFacebookSquare className="cursor-pointer rounded-[50%] " />
-                      </span>
-                      <span>
-                        <FaTwitterSquare className="cursor-pointer rounded-[50%] " />
-                      </span>
-                      <span>
-                        <FaInstagramSquare className="cursor-pointer rounded-[50%] " />
-                      </span>
-                      <span>
-                        <FaLinkedin className="cursor-pointer rounded-[50%] " />
-                      </span>
-                      <span>
-                        <FaGooglePlusSquare className="cursor-pointer rounded-[50%] " />
-                      </span>
+                    {/* author */}
+                    <div className="author my-8">
+                      <ul className="flex flex-wrap lg:flex-nowrap  space-x-8 ">
+                        <li className=" text-gray-500 text-sm">Business, News </li>
+                        <li className="list-disc text-gray-500 text-sm"> by admin </li>
+                        <li className="list-disc text-gray-500 text-sm">March 12, 2017</li>
+                      </ul>
+                    </div>
+                    {/* title */}
+                    <div className="title text-gray-700 group-hover:text-blue-800 group-hover:underline duration-200 font-semibold text-xl lg:text-2xl mb-5 ">
+                      <h>It’s your world Take control</h>
+                      <div className="h-[2px] w-20 bg-gray-300 mt-5"></div>
+                    </div>
+                    {/* desc */}
+                    <div className="text text-gray-600">
+                      <p>
+                        <small>
+                          {" "}
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore dignissimos, sapiente blanditiis adipisci possimus
+                          aliquid odio cumque iure. Facilis, nisi libero. Totam dolorem aperiam deleniti voluptatem laudantium aut, id eius...
+                        </small>
+                      </p>
+                    </div>
+
+                    {/* social and read more button */}
+
+                    <div className="block lg:flex space-y-4 lg:space-y-0 flex-wrap justify-between items-center mt-10">
+                      <div className="button mb-4">
+                        <Link to="/blogs/1">
+                          <button className="uppercase py-2.5 px-8 rounded-full border-2 border-gray-300 hover:bg-black transition duration-300 ease-in-out hover:text-white">
+                            Read more
+                          </button>
+                        </Link>
+                      </div>
+                      <div className="social flex items-center  space-x-2 py-2.5 px-8 rounded-full  bg-gray-200">
+                        <h3>SHARE: </h3>
+                        <span>
+                          <FaFacebookSquare className="cursor-pointer rounded-[50%] " />
+                        </span>
+                        <span>
+                          <FaTwitterSquare className="cursor-pointer rounded-[50%] " />
+                        </span>
+                        <span>
+                          <FaInstagramSquare className="cursor-pointer rounded-[50%] " />
+                        </span>
+                        <span>
+                          <FaLinkedin className="cursor-pointer rounded-[50%] " />
+                        </span>
+                        <span>
+                          <FaGooglePlusSquare className="cursor-pointer rounded-[50%] " />
+                        </span>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               ))}
               {/* every blog end */}
             </div>
