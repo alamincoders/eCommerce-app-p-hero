@@ -45,7 +45,7 @@ const Category = () => {
             </svg>
           </button>
         </div>
-        <Pagination startPage="1" endPage="8" totalPage="29" />
+        <Pagination startPage="1" endPage="8" totalPage="8" />
       </main>
 
       <footer>

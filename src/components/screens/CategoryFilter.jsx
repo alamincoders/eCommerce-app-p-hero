@@ -6,6 +6,44 @@ import ToggleBtn from "../shared/ToggleBtn";
 const CategoryFilter = () => {
   return (
     <aside>
+      {/* price range */}
+      <div className="w-5/6">
+        <header className="font-bold text-base mb-3">Price range</header>
+        <ReactiveBase app="good-books-ds" url="http://localhost:3000/" enableAppbase>
+          <div className="">
+            <div className="">
+              <RangeSlider
+                dataField="ratings_count"
+                componentId="Price"
+                range={{
+                  start: 30.0,
+                  end: 300.0,
+                }}
+                rangeLabels={{
+                  start: "$30",
+                  end: "$300",
+                }}
+              />
+            </div>
+          </div>
+          <SelectedFilters />
+        </ReactiveBase>
+      </div>
+        <hr className="my-10" />
+      {/* sale */}
+      <div className="flex  justify-between items-center w-5/6">
+        <div>
+          <h3 className="font-semibold text-base">On sale!</h3>{" "}
+          <p className="text-[#6B7294]">
+            <small>Products currently on sale</small>
+          </p>
+        </div>
+        <div>
+          <ToggleBtn />
+        </div>
+      </div>
+      <hr className="my-6" />
+      {/* category */}
       <div>
         <header className="font-bold text-base mb-3">Categories</header>
         <ul className="space-y-1">
@@ -102,43 +140,6 @@ const CategoryFilter = () => {
         </ul>
         <hr className="my-6" />
       </div>
-      {/* price range */}
-      <div className="w-5/6">
-        <header className="font-bold text-base mb-3">Price range</header>
-        <ReactiveBase app="good-books-ds" url="http://localhost:3000/" enableAppbase>
-          <div className="">
-            <div className="">
-              <RangeSlider
-                dataField="ratings_count"
-                componentId="Price"
-                range={{
-                  start: 30.0,
-                  end: 300.0,
-                }}
-                rangeLabels={{
-                  start: "$30",
-                  end: "$300",
-                }}
-              />
-            </div>
-          </div>
-          <SelectedFilters />
-        </ReactiveBase>
-        <hr className="my-10" /> 
-      </div>
-      {/* sale */}
-      <div className="flex  justify-between items-center w-5/6">
-        <div>
-          <h3 className="font-semibold text-base">On sale!</h3>{" "}
-          <p className="text-[#6B7294]">
-            <small>Products currently on sale</small>
-          </p>
-        </div>
-        <div>
-          <ToggleBtn />
-        </div>
-      </div>
-      <hr className="my-6" />
       {/* sort order */}
       <div className="">
         <header className="font-bold text-base mb-3">Sort order</header>
