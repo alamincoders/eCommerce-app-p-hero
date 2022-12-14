@@ -23,7 +23,7 @@ const Category = () => {
         </div>
 
         {/*  */}
-        <div className=" grid grid-cols-1 lg:grid-cols-[1fr,2fr] grid-rows-1 gap-x-10">
+        <div className=" grid grid-cols-1 lg:grid-cols-[1fr,3fr] grid-rows-1 gap-x-10">
           <div className="mt-16 ">
             <CategoryFilter />
           </div>
@@ -33,7 +33,7 @@ const Category = () => {
             ))}
           </div>
         </div>
-        <div className="absolute top-0 right-3 hidden lg:inline-block">
+        <div className="absolute top-0 right-24 hidden lg:inline-block">
           <button className="animate-spin duration-500 transition">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
               <path

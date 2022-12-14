@@ -29,7 +29,7 @@ const CategoryFilter = () => {
           <SelectedFilters />
         </ReactiveBase>
       </div>
-        <hr className="my-10" />
+      <hr className="my-10" />
       {/* sale */}
       <div className="flex  justify-between items-center w-5/6">
         <div>
@@ -113,29 +113,47 @@ const CategoryFilter = () => {
       <div>
         <header className="font-bold text-base mb-3">Sizes</header>
         <ul className="space-y-1">
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">XS</li>
+            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span class="mt-[1px]">4</span>
+            </div>
           </div>
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">S</li>
+            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span class="mt-[1px]">6</span>
+            </div>
           </div>{" "}
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">M</li>
+            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span class="mt-[1px]">8</span>
+            </div>
           </div>
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">L</li>
+            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span class="mt-[1px]">1</span>
+            </div>
           </div>{" "}
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">XL</li>
+            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span class="mt-[1px]">2</span>
+            </div>
           </div>
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">2XL</li>
+            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-10  rounded-full text-[10px] leading-none text-white font-medium">
+              <span class="mt-[1px]">0</span>
+            </div>
           </div>
         </ul>
         <hr className="my-6" />
