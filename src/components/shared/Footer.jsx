@@ -42,7 +42,7 @@ const Footer = () => {
               </p>
             </div>
             <div className=" border-none lg:border-l-2 border-gray-200 pl-0 lg:pl-52 ">
-              <form onSubmit={handleSubmit} className="space-x-4" action="#">
+              <form onSubmit={handleSubmit} className="space-x-4 space-y-4" action="#">
                 <input
                   required
                   onChange={(e) => setInput(e.target.value)}
