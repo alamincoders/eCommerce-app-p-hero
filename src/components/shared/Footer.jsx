@@ -11,6 +11,7 @@ import facebook from "../../assets/social/download.png";
 import twitter from "../../assets/social/Twitter-logo.svg.webp";
 import instagram from "../../assets/social/Instagram_logo_2022.svg.webp";
 import youtube from "../../assets/social/unnamed.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [input, setInput] = useState("");
@@ -101,7 +102,9 @@ const Footer = () => {
                 <li className="footer_links">Gallery</li>
                 <li className="footer_links">Affiliates</li>
                 <li className="footer_links">Contacts</li>
-                <li className="footer_links">Terms and condition</li>
+                <li className="footer_links">
+                  <Link to="/terms">Terms and condition</Link>
+                </li>
                 <li className="footer_links">Privacy Policy</li>
               </ul>
             </div>

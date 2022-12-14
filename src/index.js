@@ -16,6 +16,7 @@ import ProductDetails from "./routes/ProductDetails";
 import Faq from "./routes/Faq";
 import Cart from "./routes/Cart";
 import Checkout from "./routes/Checkout";
+import Terms from "./routes/Terms";
 
 const router = createBrowserRouter([
   {
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
   {
     path: "/payment",
     element: <Payment />,
+  },
+  {
+    path: "/terms",
+    element: <Terms />,
   },
 ]);
 
