@@ -12,6 +12,7 @@ import Payment from "./routes/Payment";
 import Contact from "./routes/Contact";
 import Category from "./routes/Category";
 import BlogDetails from "./routes/BlogDetails";
+import ProductDetails from "./routes/ProductDetails";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "/category",
     element: <Category />,
+  },
+  {
+    path: "/category/:id",
+    element: <ProductDetails />,
   },
 ]);
 
