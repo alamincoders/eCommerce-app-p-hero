@@ -13,6 +13,8 @@ import Contact from "./routes/Contact";
 import Category from "./routes/Category";
 import BlogDetails from "./routes/BlogDetails";
 import ProductDetails from "./routes/ProductDetails";
+import Faq from "./routes/Faq";
+import Cart from "./routes/Cart";
 
 const router = createBrowserRouter([
   {
@@ -59,6 +61,14 @@ const router = createBrowserRouter([
   {
     path: "/category/:id",
     element: <ProductDetails />,
+  },
+  {
+    path: "/faq",
+    element: <Faq />,
+  },
+  {
+    path: "/cart",
+    element: <Cart />,
   },
 ]);
 

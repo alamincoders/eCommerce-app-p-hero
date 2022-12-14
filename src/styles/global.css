@@ -4,7 +4,7 @@ nav {
   background-color: #fff;
   position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 9999;
   height: 65px;
   top: 0;
   line-height: 65px;

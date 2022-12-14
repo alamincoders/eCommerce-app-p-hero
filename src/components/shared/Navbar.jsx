@@ -225,19 +225,22 @@ const Navbar = () => {
                       <Link to="/category/1">Product Details</Link>
                     </li>
                     <li>
-                      <a href="#">Cart Page</a>
+                      <Link to="/cart">Cart Page</Link>
                     </li>
                     <li>
-                      <a href="#">Checkout Page</a>
+                      <Link to="/checkout">Checkout Page</Link>
                     </li>{" "}
                     <li>
                       <Link to="/payment">Payment Page</Link>
                     </li>
                     <li>
-                      <a href="#">Account</a>
+                      <Link to="/account">Account</Link>
                     </li>
                     <li>
                       <Link to="/blogs">Blogs</Link>
+                    </li>{" "}
+                    <li>
+                      <Link to="/faq">FAQs</Link>
                     </li>
                   </ul>
                 </li>
