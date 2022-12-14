@@ -37,9 +37,9 @@ function ProductCart() {
                     Back
                   </Link>
                 </div>
-                <p className="text-4xl font-medium  leading-10 text-gray-800 pt-3">Checkout</p>
+                <p className="text-4xl font-medium  leading-10 text-gray-800 pt-3">Your Cart</p>
                 <p className="text-gray-700 mt-2">
-                  <small>Homepage/Products Collection/Checkout</small>
+                  <small>Homepage/Products Collection/Cart</small>
                 </p>
                 {productsData.slice(0, 3).map((product, i) => (
                   <div className="md:flex items-center mt-14 py-8 border-t border-gray-200">

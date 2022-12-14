@@ -1,7 +1,6 @@
 import React from "react";
 import blogThumbnail from "../../assets/blog/pexels-photo-6168061.jpeg";
 import author1 from "../../assets/author/Image-2.405c62ff9ad88c47e28c.png";
-import Button from "../shared/Button";
 import { Link } from "react-router-dom";
 import { uiBlogData } from "../../constant/uiBlogData";
 import UiBlog from "./UiBlog";
@@ -49,7 +48,12 @@ const UiBlogs = () => {
 
       <div className="text-center">
         <Link to="/blogs">
-          <Button title="Show all blog articles" icon={false} bgColor={false} textColor={false} hoverBtn={false} />
+          <button
+            className={`mt-8 bg-white text-black py-3 md:py-4 lg:py-5 px-7 rounded-full
+        transition-colors duration-200 shadow-2xl shadow-red-200 cursor-pointer z-50`}
+          >
+            Show all blog articles
+          </button>
         </Link>
       </div>
     </div>

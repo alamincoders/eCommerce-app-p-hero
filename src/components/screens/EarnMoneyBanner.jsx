@@ -9,7 +9,7 @@ const EarnMoneyBanner = () => {
     <div className="container  py-16 md:py-24 lg:py-32">
       <div className="flex flex-col lg:flex-row items-center justify-center w-full">
         <div className="w-full space-y-6">
-          <div className="w-20 lg:w-16">
+          <div className="w-20 lg:w-32">
             <Link to="/">
               <img className="w-full  h-full" src={logo} alt="" />
             </Link>
@@ -19,7 +19,7 @@ const EarnMoneyBanner = () => {
             <span>with Aieeb</span>
           </h1>
           <p className="text-xl text-gray-800">With Ciseco you will get freeship & savings combo...</p>
-          <div className=" space-x-00 lg:space-x-4 space-y-4">
+          <div className=" space-x-0 lg:space-x-4 space-y-4">
             <Button title="Savings combo" icon={false} bgColor={true} textColor={true} hoverBtn={true} />{" "}
             <Button title="Discover more" icon={false} bgColor={false} textColor={false} hoverBtn={false} />
           </div>

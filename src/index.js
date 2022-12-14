@@ -15,6 +15,7 @@ import BlogDetails from "./routes/BlogDetails";
 import ProductDetails from "./routes/ProductDetails";
 import Faq from "./routes/Faq";
 import Cart from "./routes/Cart";
+import Checkout from "./routes/Checkout";
 
 const router = createBrowserRouter([
   {
@@ -50,10 +51,7 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register />,
   },
-  {
-    path: "/payment",
-    element: <Payment />,
-  },
+
   {
     path: "/category",
     element: <Category />,
@@ -69,6 +67,14 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <Cart />,
+  },
+  {
+    path: "/checkout",
+    element: <Checkout />,
+  },
+  {
+    path: "/payment",
+    element: <Payment />,
   },
 ]);
 
