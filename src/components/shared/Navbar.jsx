@@ -222,7 +222,7 @@ const Navbar = () => {
                       <Link to="/category">Category Page </Link>
                     </li>
                     <li>
-                      <a href="#">Product Details</a>
+                      <Link to="/category/1">Product Details</Link>
                     </li>
                     <li>
                       <a href="#">Cart Page</a>

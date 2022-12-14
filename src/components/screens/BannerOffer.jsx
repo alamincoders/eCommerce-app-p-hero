@@ -33,7 +33,7 @@ const BannerOffer = () => {
             <span className="block mt-6 text-slate-500 dark:text-slate-400">
               Fashion is a form of self-expression and autonomy at a particular period and place.
             </span>
-            <div className="flex space-x-2 sm:space-x-5 mt-6 sm:mt-8">
+            <div className="flex space-x-2 sm:space-x-5 mt-6 sm:mt-8 z-10">
               <Button title="Discover more" icon={false} bgColor={true} textColor={true} hoverBtn={true} />{" "}
             </div>
           </div>
