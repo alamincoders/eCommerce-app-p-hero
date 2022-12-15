@@ -11,6 +11,8 @@ Install with your machine
 ```bash
  git clone [url]
  cd [file name]
+ npm install
+ npm start
 ```
     
 ## Tech Stack
