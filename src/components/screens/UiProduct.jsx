@@ -1,7 +1,8 @@
+import Aos from "aos";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import QuickView from "./QuickView";
-
+Aos.init({ duration: "2500" });
 const UiProduct = (props) => {
   const { id, name, desc, image, review, price, size, quick_view, color, stock, new_in, rating } = props.data;
   const [showModal, setShowModal] = useState(false);
@@ -18,7 +19,7 @@ const UiProduct = (props) => {
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </div>
       ) : null}
-      <div className="relative flex-shrink-0 bg-slate-50 dark:bg-slate-300 rounded-3xl overflow-hidden z-1 group ">
+      <div data-aos="zoom-in-up" className="relative flex-shrink-0 bg-slate-50 dark:bg-slate-300 rounded-3xl overflow-hidden z-1 group ">
         {/* image */}
         <Link to={`/category/${id}`}>
           <div className="">

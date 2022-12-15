@@ -1,14 +1,15 @@
+import Aos from "aos";
 import React from "react";
 import { Link } from "react-router-dom";
 import earnImg from "../../assets/earn.png";
 import logo from "../../assets/logo.svg";
 import Button from "../shared/Button";
-
+Aos.init({ duration: "3000" });
 const EarnMoneyBanner = () => {
   return (
     <div className="container  py-16 md:py-24 lg:py-32">
       <div className="flex flex-col lg:flex-row items-center justify-center w-full">
-        <div className="w-full space-y-6">
+        <div data-aos="zoom-in-right" className="w-full space-y-6">
           <div className="w-20 lg:w-32">
             <Link to="/">
               <img className="w-full  h-full" src={logo} alt="" />
@@ -24,7 +25,7 @@ const EarnMoneyBanner = () => {
             <Button title="Discover more" icon={false} bgColor={false} textColor={false} hoverBtn={false} />
           </div>
         </div>
-        <div className="w-full mt-10 md:mt-0 lg:mt-0">
+        <div data-aos="zoom-out-left" className="w-full mt-10 md:mt-0 lg:mt-0">
           <img className="w-full h-full" src={earnImg} alt="" />
         </div>
       </div>

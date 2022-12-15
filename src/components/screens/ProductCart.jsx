@@ -42,9 +42,9 @@ function ProductCart() {
                   <small>Homepage/Products Collection/Cart</small>
                 </p>
                 {productsData.slice(0, 3).map((product, i) => (
-                  <div className="md:flex items-center mt-14 py-8 border-t border-gray-200">
+                  <div key={i} className="md:flex items-center mt-14 py-8 border-t border-gray-200">
                     <div className="w-1/4">
-                      <img src={product.image} alt className="w-full h-full object-center object-cover" />
+                      <img src={product.image} alt="" className="w-full h-full object-center object-cover" />
                     </div>
                     <div className="md:pl-3 md:w-3/4">
                       <p className="text-xs leading-3 text-gray-800 md:pt-0 pt-4">RF293</p>

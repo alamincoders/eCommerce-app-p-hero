@@ -1,3 +1,5 @@
+import Aos from "aos";
+import { useEffect, useState } from "react";
 import BannerOffer from "../components/screens/BannerOffer";
 import BannerOffer2 from "../components/screens/BannerOffer2";
 import BestSelling from "../components/screens/BestSelling";
@@ -15,11 +17,25 @@ import Testimonials from "../components/screens/Testimonials";
 import UiBlogs from "../components/screens/UiBlogs";
 import Footer from "../components/shared/Footer";
 import Navbar from "../components/shared/Navbar";
+import Spinner from "../components/shared/Spinner";
 import "../styles/global.css";
 
 const Root = () => {
-  return (
-    <>
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
+  if (loading) {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }
+
+  return loading ? (
+    <Spinner />
+  ) : (
+    <div>
       <header className="relative mt-[65px]">
         <Navbar />
       </header>
@@ -49,7 +65,7 @@ const Root = () => {
         <Footer />
       </footer>
       <ScrollToTop />
-    </>
+    </div>
   );
 };
 

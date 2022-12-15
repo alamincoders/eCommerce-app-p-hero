@@ -14,7 +14,7 @@ const NewArrivals = () => {
       {/* main */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {productsData.slice(3, 7).map((data, i) => (
-          <UiProduct data={data} key={i} />
+          <UiProduct  data={data} key={i} />
         ))}
       </div>
     </div>

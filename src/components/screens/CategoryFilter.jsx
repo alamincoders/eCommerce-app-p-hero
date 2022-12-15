@@ -116,43 +116,43 @@ const CategoryFilter = () => {
           <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">XS</li>
-            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
-              <span class="mt-[1px]">4</span>
+            <div className="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span className="mt-[1px]">4</span>
             </div>
           </div>
           <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">S</li>
-            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
-              <span class="mt-[1px]">6</span>
+            <div className="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span className="mt-[1px]">6</span>
             </div>
           </div>{" "}
           <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">M</li>
-            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
-              <span class="mt-[1px]">8</span>
+            <div className="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span className="mt-[1px]">8</span>
             </div>
           </div>
           <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">L</li>
-            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
-              <span class="mt-[1px]">1</span>
+            <div className="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span className="mt-[1px]">1</span>
             </div>
           </div>{" "}
           <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">XL</li>
-            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
-              <span class="mt-[1px]">2</span>
+            <div className="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-8 rounded-full text-[10px] leading-none text-white font-medium">
+              <span className="mt-[1px]">2</span>
             </div>
           </div>
           <div className="flex space-x-2 relative">
             <Checkbox />
             <li className="list-none text-sm">2XL</li>
-            <div class="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-10  rounded-full text-[10px] leading-none text-white font-medium">
-              <span class="mt-[1px]">0</span>
+            <div className="w-3.5 h-3.5 flex items-center justify-center bg-orange-500 absolute top-0 left-10  rounded-full text-[10px] leading-none text-white font-medium">
+              <span className="mt-[1px]">0</span>
             </div>
           </div>
         </ul>
