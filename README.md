@@ -9,8 +9,8 @@ This is a sample application that demonstrates an E-commerce website. The applic
 Install with your machine
 
 ```bash
- git clone [url]
- cd [file name]
+ git clone url
+ cd file name
  npm install
  npm start
 ```
@@ -53,10 +53,6 @@ Here are screenshots that show the E-commerce demo application in use.
 ![App Screenshot](https://i.ibb.co/xMV0wvf/demo-1.png)
 
 ![App Screenshot](https://i.ibb.co/74tP29N/demo-5.png)
-## Support
-
-Need support? Through us an email at alaminpgmr@gmail.com
-We are always here to help with any problem you may have
 
 
 ## Author
