@@ -9,7 +9,7 @@ This is a sample application that demonstrates an E-commerce website. The applic
 Install with your machine
 
 ```bash
- git clone url
+ git clone [url]
  cd file name
  npm install
  npm start
